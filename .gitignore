@@ -1,0 +1,28 @@
+# 二进制构建产物
+/bin/
+/dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+new-api-proxy
+
+# Go 测试与覆盖率
+*.test
+*.out
+coverage.txt
+
+# 本地配置（含密钥，勿提交）
+config.yaml
+.env
+
+# IDE / 编辑器
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# 依赖与缓存
+vendor/

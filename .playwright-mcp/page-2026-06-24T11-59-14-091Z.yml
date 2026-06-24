@@ -1,0 +1,1504 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e12]:
+      - generic [ref=e13]:
+        - link [ref=e14] [cursor=pointer]:
+          - /url: //www.volcengine.com
+        - generic [ref=e16] [cursor=pointer]: 文档中心
+      - img [ref=e21] [cursor=pointer]
+      - generic [ref=e26]:
+        - combobox [ref=e28] [cursor=pointer]:
+          - generic "简体" [ref=e29]:
+            - img [ref=e31]
+            - generic [ref=e34]:
+              - textbox:
+                - /placeholder: Select language
+              - generic [ref=e35]: 简体
+            - img [ref=e38]
+        - link "文档" [ref=e40] [cursor=pointer]:
+          - /url: https://www.volcengine.com/docs
+        - link "控制台" [ref=e41] [cursor=pointer]:
+          - /url: https://console.volcengine.com
+        - generic [ref=e43]:
+          - link "登录" [ref=e44] [cursor=pointer]:
+            - /url: //console.volcengine.com/auth/login?redirectURI=%2F%2Fwww.volcengine.com%2Fdocs%2F82379%2F1520757%3Flang%3Dzh
+          - link "免费开始使用" [ref=e45] [cursor=pointer]:
+            - /url: //console.volcengine.com/auth/signup?redirectURI=%2F%2Fwww.volcengine.com%2Fdocs%2F82379%2F1520757%3Flang%3Dzh
+    - generic [ref=e48]:
+      - generic [ref=e52]:
+        - generic [ref=e53]:
+          - button "open" [ref=e54] [cursor=pointer]:
+            - img "open" [ref=e55]
+          - generic [ref=e56] [cursor=pointer]: 火山方舟
+        - generic [ref=e58]:
+          - generic [ref=e59] [cursor=pointer]: 文档指南
+          - generic [ref=e60] [cursor=pointer]: 订阅 [Agent/Coding Plan]
+          - generic [ref=e61] [cursor=pointer]: API参考
+          - generic [ref=e62] [cursor=pointer]: 资源
+      - generic [ref=e63]:
+        - generic [ref=e66]:
+          - generic [ref=e68] [cursor=pointer]:
+            - img [ref=e69]
+            - generic [ref=e71]: 请输入
+          - menu [ref=e74]:
+            - generic [ref=e75]:
+              - generic [ref=e76]:
+                - generic [ref=e77]: 准备工作
+                - menuitem "获取 API Key 并配置" [ref=e78] [cursor=pointer]:
+                  - link "获取 API Key 并配置" [ref=e79]:
+                    - /url: /docs/82379/1541594?lang=zh
+                    - generic [ref=e81]: 获取 API Key 并配置
+                - menuitem "安装及升级 SDK" [ref=e82] [cursor=pointer]:
+                  - link "安装及升级 SDK" [ref=e83]:
+                    - /url: /docs/82379/1541595?lang=zh
+                    - generic [ref=e85]: 安装及升级 SDK
+                - menuitem "Base URL及鉴权" [ref=e86] [cursor=pointer]:
+                  - link "Base URL及鉴权" [ref=e87]:
+                    - /url: /docs/82379/1298459?lang=zh
+                    - generic [ref=e89]: Base URL及鉴权
+              - generic [ref=e90]:
+                - generic [ref=e91]: 对话(Chat) API
+                - menuitem "对话(Chat) API" [ref=e92] [cursor=pointer]:
+                  - link "对话(Chat) API" [ref=e93]:
+                    - /url: /docs/82379/1494384?lang=zh
+                    - generic [ref=e95]: 对话(Chat) API
+              - generic [ref=e96]:
+                - generic [ref=e97]: Responses API
+                - menuitem "创建模型响应" [ref=e98] [cursor=pointer]:
+                  - link "创建模型响应" [ref=e99]:
+                    - /url: /docs/82379/1569618?lang=zh
+                    - generic [ref=e101]: 创建模型响应
+                - menuitem "查询模型响应" [ref=e102] [cursor=pointer]:
+                  - link "查询模型响应" [ref=e103]:
+                    - /url: /docs/82379/1783709?lang=zh
+                    - generic [ref=e105]: 查询模型响应
+                - menuitem "获取响应上下文" [ref=e106] [cursor=pointer]:
+                  - link "获取响应上下文" [ref=e107]:
+                    - /url: /docs/82379/1783719?lang=zh
+                    - generic [ref=e109]: 获取响应上下文
+                - menuitem "删除模型响应" [ref=e110] [cursor=pointer]:
+                  - link "删除模型响应" [ref=e111]:
+                    - /url: /docs/82379/1584286?lang=zh
+                    - generic [ref=e113]: 删除模型响应
+                - menuitem "The response object" [ref=e114] [cursor=pointer]:
+                  - link "The response object" [ref=e115]:
+                    - /url: /docs/82379/1783703?lang=zh
+                    - generic [ref=e117]: The response object
+                - menuitem "流式响应" [ref=e118] [cursor=pointer]:
+                  - link "流式响应" [ref=e119]:
+                    - /url: /docs/82379/1599499?lang=zh
+                    - generic [ref=e121]: 流式响应
+              - generic [ref=e122]:
+                - generic [ref=e123]: Files API
+                - menuitem "上传文件" [ref=e124] [cursor=pointer]:
+                  - link "上传文件" [ref=e125]:
+                    - /url: /docs/82379/1870405?lang=zh
+                    - generic [ref=e127]: 上传文件
+                - menuitem "检索文件" [ref=e128] [cursor=pointer]:
+                  - link "检索文件" [ref=e129]:
+                    - /url: /docs/82379/1870406?lang=zh
+                    - generic [ref=e131]: 检索文件
+                - menuitem "查询文件列表" [ref=e132] [cursor=pointer]:
+                  - link "查询文件列表" [ref=e133]:
+                    - /url: /docs/82379/1870407?lang=zh
+                    - generic [ref=e135]: 查询文件列表
+                - menuitem "删除文件" [ref=e136] [cursor=pointer]:
+                  - link "删除文件" [ref=e137]:
+                    - /url: /docs/82379/1870408?lang=zh
+                    - generic [ref=e139]: 删除文件
+                - menuitem "The file object" [ref=e140] [cursor=pointer]:
+                  - link "The file object" [ref=e141]:
+                    - /url: /docs/82379/1873424?lang=zh
+                    - generic [ref=e143]: The file object
+              - generic [ref=e144]:
+                - generic [ref=e145]: 视频生成 API
+                - menuitem "创建视频生成任务 API" [ref=e146] [cursor=pointer]:
+                  - link "创建视频生成任务 API" [ref=e147]:
+                    - /url: /docs/82379/1520757?lang=zh
+                    - generic [ref=e149]: 创建视频生成任务 API
+                - menuitem "查询视频生成任务 API" [ref=e150] [cursor=pointer]:
+                  - link "查询视频生成任务 API" [ref=e151]:
+                    - /url: /docs/82379/1521309?lang=zh
+                    - generic [ref=e153]: 查询视频生成任务 API
+                - menuitem "查询视频生成任务列表" [ref=e154] [cursor=pointer]:
+                  - link "查询视频生成任务列表" [ref=e155]:
+                    - /url: /docs/82379/1521675?lang=zh
+                    - generic [ref=e157]: 查询视频生成任务列表
+                - menuitem "取消或删除视频生成任务" [ref=e158] [cursor=pointer]:
+                  - link "取消或删除视频生成任务" [ref=e159]:
+                    - /url: /docs/82379/1521720?lang=zh
+                    - generic [ref=e161]: 取消或删除视频生成任务
+              - generic [ref=e162]:
+                - generic [ref=e163]: 图片生成 API
+                - menuitem "图片生成 API" [ref=e164] [cursor=pointer]:
+                  - link "图片生成 API" [ref=e165]:
+                    - /url: /docs/82379/1541523?lang=zh
+                    - generic [ref=e167]: 图片生成 API
+                - menuitem "流式响应" [ref=e168] [cursor=pointer]:
+                  - link "流式响应" [ref=e169]:
+                    - /url: /docs/82379/1824137?lang=zh
+                    - generic [ref=e171]: 流式响应
+              - generic [ref=e172]:
+                - generic [ref=e173]: 3D生成 API
+                - generic [ref=e175] [cursor=pointer]:
+                  - generic [ref=e178]: Seed3D API
+                  - img [ref=e180]
+                - generic [ref=e183] [cursor=pointer]:
+                  - generic [ref=e186]: 影眸 API
+                  - img [ref=e188]
+                - generic [ref=e191] [cursor=pointer]:
+                  - generic [ref=e194]: 数美 API
+                  - img [ref=e196]
+              - generic [ref=e198]:
+                - generic [ref=e199]: 向量化 API
+                - menuitem "向量化 API" [ref=e200] [cursor=pointer]:
+                  - link "向量化 API" [ref=e201]:
+                    - /url: /docs/82379/1523520?lang=zh
+                    - generic [ref=e203]: 向量化 API
+              - generic [ref=e204]:
+                - generic [ref=e205]: 上下文缓存 API
+                - menuitem "创建上下文缓存 API" [ref=e206] [cursor=pointer]:
+                  - link "创建上下文缓存 API" [ref=e207]:
+                    - /url: /docs/82379/1528789?lang=zh
+                    - generic [ref=e209]: 创建上下文缓存 API
+                - menuitem "上下文缓存对话 API" [ref=e210] [cursor=pointer]:
+                  - link "上下文缓存对话 API" [ref=e211]:
+                    - /url: /docs/82379/1529329?lang=zh
+                    - generic [ref=e213]: 上下文缓存对话 API
+              - generic [ref=e214]:
+                - generic [ref=e215]: 应用(Bot) API
+                - menuitem "应用(bot) API" [ref=e216] [cursor=pointer]:
+                  - link "应用(bot) API" [ref=e217]:
+                    - /url: /docs/82379/1526787?lang=zh
+                    - generic [ref=e219]: 应用(bot) API
+                - menuitem "联网插件 数据结构" [ref=e220] [cursor=pointer]:
+                  - link "联网插件 数据结构" [ref=e221]:
+                    - /url: /docs/82379/1285209?lang=zh
+                    - generic [ref=e223]: 联网插件 数据结构
+                - menuitem "知识库插件 数据结构" [ref=e224] [cursor=pointer]:
+                  - link "知识库插件 数据结构" [ref=e225]:
+                    - /url: /docs/82379/1285210?lang=zh
+                    - generic [ref=e227]: 知识库插件 数据结构
+              - generic [ref=e228]:
+                - generic [ref=e229]: 批量推理 API
+                - generic [ref=e231] [cursor=pointer]:
+                  - generic [ref=e234]: 批量(Job) API
+                  - img [ref=e236]
+                - menuitem "批量(Chat) API" [ref=e238] [cursor=pointer]:
+                  - link "批量(Chat) API" [ref=e239]:
+                    - /url: /docs/82379/1528783?lang=zh
+                    - generic [ref=e241]: 批量(Chat) API
+              - generic [ref=e242]:
+                - generic [ref=e243]: 分词 API
+                - menuitem "分词 API" [ref=e244] [cursor=pointer]:
+                  - link "分词 API" [ref=e245]:
+                    - /url: /docs/82379/1528728?lang=zh
+                    - generic [ref=e247]: 分词 API
+              - generic [ref=e248]:
+                - generic [ref=e249]: 管控面 API
+                - generic [ref=e251] [cursor=pointer]:
+                  - generic [ref=e254]: 管理推理接入点（Endpoint）
+                  - img [ref=e256]
+                - generic [ref=e259] [cursor=pointer]:
+                  - generic [ref=e262]: 管理API Key
+                  - img [ref=e264]
+                - generic [ref=e267] [cursor=pointer]:
+                  - generic [ref=e270]: 管理模型调优任务
+                  - img [ref=e272]
+                - generic [ref=e275] [cursor=pointer]:
+                  - generic [ref=e278]: 管理定制模型
+                  - img [ref=e280]
+                - generic [ref=e283] [cursor=pointer]:
+                  - generic [ref=e286]: 管理基础模型
+                  - img [ref=e288]
+                - generic [ref=e291] [cursor=pointer]:
+                  - generic [ref=e294]: 管理模型评测任务
+                  - img [ref=e296]
+                - generic [ref=e299] [cursor=pointer]:
+                  - generic [ref=e302]: 安全审计
+                  - img [ref=e304]
+                - generic [ref=e307] [cursor=pointer]:
+                  - generic [ref=e310]: Agent Plan / Coding Plan API
+                  - img [ref=e312]
+                - generic [ref=e315] [cursor=pointer]:
+                  - generic [ref=e318]: 查询用量
+                  - img [ref=e320]
+                - generic [ref=e323] [cursor=pointer]:
+                  - generic [ref=e326]: 效果上报
+                  - img [ref=e328]
+              - generic [ref=e330]:
+                - generic [ref=e331]: 其他说明
+                - menuitem "兼容 OpenAI SDK" [ref=e332] [cursor=pointer]:
+                  - link "兼容 OpenAI SDK" [ref=e333]:
+                    - /url: /docs/82379/1330626?lang=zh
+                    - generic [ref=e335]: 兼容 OpenAI SDK
+                - menuitem "错误码" [ref=e336] [cursor=pointer]:
+                  - link "错误码" [ref=e337]:
+                    - /url: /docs/82379/1299023?lang=zh
+                    - generic [ref=e339]: 错误码
+                - menuitem "SDK 常见使用示例" [ref=e340] [cursor=pointer]:
+                  - link "SDK 常见使用示例" [ref=e341]:
+                    - /url: /docs/82379/1544136?lang=zh
+                    - generic [ref=e343]: SDK 常见使用示例
+        - generic [ref=e347]:
+          - generic [ref=e348]:
+            - list [ref=e349]:
+              - listitem [ref=e350] [cursor=pointer]: 文档首页
+              - generic [ref=e352] [cursor=pointer]: 火山方舟
+              - generic [ref=e354] [cursor=pointer]: 视频生成 API
+              - generic [ref=e356] [cursor=pointer]: 创建视频生成任务 API
+            - generic [ref=e359]:
+              - generic [ref=e360]:
+                - generic [ref=e362] [cursor=pointer]:
+                  - generic [ref=e364]: 复制全文
+                  - img [ref=e366]
+                - generic [ref=e369] [cursor=pointer]:
+                  - generic [ref=e371]: 下载 pdf
+                  - img [ref=e373]
+              - switch [ref=e376] [cursor=pointer]
+              - generic [ref=e378]:
+                - img [ref=e380] [cursor=pointer]
+                - img [ref=e384] [cursor=pointer]
+              - link "我的收藏" [ref=e388] [cursor=pointer]:
+                - /url: /docs/favorite?lang=zh
+          - generic [ref=e389]: 创建视频生成任务 API
+          - generic [ref=e394]:
+            - generic [ref=e395]:
+              - generic [ref=e396]:
+                - generic [ref=e398]: POST https://ark.cn-beijing.volces.com/api/v3/contents/generations/tasks
+                - link "运行" [ref=e401] [cursor=pointer]:
+                  - /url: https://api.volcengine.com/api-explorer/?action=CreateContentsGenerationsTasks&data=%7B%7D&groupName=%E8%A7%86%E9%A2%91%E7%94%9F%E6%88%90API&query=%7B%7D&serviceCode=ark&version=2024-01-01
+                  - generic [ref=e402]: 运行
+              - generic [ref=e403]: 本文介绍创建视频生成任务 API 的输入输出参数，供您使用接口时查阅字段含义。模型会依据传入的图片及文本信息生成视频，待生成完成后，您可以按条件查询任务并获取生成的视频。
+              - generic [ref=e404]:
+                - generic [ref=e405]: 注意
+                - generic [ref=e406]:
+                  - text: 火山方舟现已上线 Seedance 2.0 mini 模型。当前仅支持
+                  - link "控制台体验中心" [ref=e409] [cursor=pointer]:
+                    - /url: https://console.volcengine.com/ark/region:ark+cn-beijing/experience/vision?modelId=doubao-seedance-2-0-mini-260615
+                    - generic [ref=e410]: 控制台体验中心
+                  - text: 调试体验（体验期内控制台体验中心的并发数限制为 1，体验期结束后将恢复默认限流），预计北京时间 6月25日 支持 API 调用。
+              - generic [ref=e411]:
+                - generic [ref=e412]: 说明
+                - generic [ref=e413]: 开通 Seedance 2.0 系列模型前，请确保您满足以下任一条件：
+                - list [ref=e415]:
+                  - listitem [ref=e416]:
+                    - text: • 账户余额 > 200 元（
+                    - link "前往充值" [ref=e419] [cursor=pointer]:
+                      - /url: https://console.volcengine.com/finance/fund/recharge?_vtm_=a106466.b106468.0_0.0_0.0.1086_7646310968578557482
+                      - generic [ref=e420]: 前往充值
+                    - text: ）
+                - list [ref=e422]:
+                  - listitem [ref=e423]:
+                    - text: • 已购买 Seedance 2.0 系列资源包且有可用余量（
+                    - link "前往购买" [ref=e426] [cursor=pointer]:
+                      - /url: https://console.volcengine.com/common-buy/fast/ark_bd%7C%7Cd682ppeeq1mp7kd5q0e0?_vtm_=a106466.b106468.0_0.0_0.0.1086_7646310968578557482
+                      - generic [ref=e427]: 前往购买
+                    - text: ）
+                - list [ref=e429]:
+                  - listitem [ref=e430]:
+                    - text: 详细规则见
+                    - link "Seedance 2.0 系列模型资源包使用规则" [ref=e433] [cursor=pointer]:
+                      - /url: /docs/82379/2191775?lang=zh
+                      - generic [ref=e434]: Seedance 2.0 系列模型资源包使用规则
+                    - text: 。
+              - generic [ref=e438]:
+                - img [ref=e440] [cursor=pointer]
+                - generic [ref=e442]:
+                  - generic [ref=e443]:
+                    - text: 模型能力
+                    - generic [ref=e446]: new
+                  - list [ref=e448]:
+                    - listitem [ref=e449]:
+                      - text: • Doubao Seedance 2.0 系列
+                      - generic [ref=e452]: new
+                      - text: (有声视频/无声视频)
+                  - list [ref=e454]:
+                    - listitem [ref=e455]:
+                      - text: ◦ 多模态参考生视频
+                      - generic [ref=e458]: new
+                      - text: ：输入参考图片（0-9）+参考视频（0-3）+ 参考音频（0-3）+ 文本提示词（可选）生成 1 个目标视频。注意不可单独输入音频，应至少包含 1 个参考视频或图片。支持生成全新视频、编辑视频、延长视频，
+                      - link "阅读教程" [ref=e461] [cursor=pointer]:
+                        - /url: /docs/82379/2291680?lang=zh
+                        - generic [ref=e462]: 阅读教程
+                      - text: 获取详细代码示例。
+                  - list [ref=e464]:
+                    - listitem [ref=e465]: ◦ 图生视频-首尾帧：输入首帧图片+尾帧图片+文本提示词（可选）生成 1 个目标视频。
+                  - list [ref=e467]:
+                    - listitem [ref=e468]: ◦ 图生视频-首帧：输入首帧图片+文本提示词（可选）生成 1 个目标视频。
+                  - list [ref=e470]:
+                    - listitem [ref=e471]: ◦ 文生视频：输入文本提示词生成 1 个目标视频。
+                  - list [ref=e473]:
+                    - listitem [ref=e474]: • Doubao Seedance 1.5 Pro (有声视频/无声视频)
+                  - list [ref=e476]:
+                    - listitem [ref=e477]: 【图生视频-首尾帧】【图生视频-首帧】【文生视频】
+                  - list [ref=e479]:
+                    - listitem [ref=e480]: • Doubao Seedance 1.0 Pro
+                  - list [ref=e482]:
+                    - listitem [ref=e483]: 【图生视频-首尾帧】【图生视频-首帧】【文生视频】
+                  - list [ref=e485]:
+                    - listitem [ref=e486]: • Doubao Seedance 1.0 Pro Fast
+                  - list [ref=e488]:
+                    - listitem [ref=e489]: 【图生视频-首帧】【文生视频】
+              - generic [ref=e492]: 鉴权
+              - generic [ref=e493]:
+                - text: 本接口仅支持 API Key 鉴权，请在
+                - link "获取 API Key" [ref=e496] [cursor=pointer]:
+                  - /url: https://console.volcengine.com/ark/region:ark+cn-beijing/apiKey
+                  - generic [ref=e497]: 获取 API Key
+                - text: 页面，获取长效 API Key。
+              - generic [ref=e503]: 请求参数
+              - generic [ref=e505]:
+                - text: 跳转
+                - link "响应参数" [ref=e508] [cursor=pointer]:
+                  - /url: /docs/82379/1520757?lang=zh#y2hhTyHB
+                  - generic [ref=e509]: 响应参数
+              - generic [ref=e511]: Body 参数
+              - generic [ref=e516]:
+                - text: model
+                - generic [ref=e518]: string
+                - generic [ref=e520]: 必选
+              - generic [ref=e521]:
+                - text: 您需要调用的模型的 ID （Model ID），
+                - link "开通模型服务" [ref=e524] [cursor=pointer]:
+                  - /url: https://console.volcengine.com/ark/region:ark+cn-beijing/openManagement?LLM=%7B%7D&OpenTokenDrawer=false
+                  - generic [ref=e525]: 开通模型服务
+                - text: ，并
+                - link "查询 Model ID" [ref=e528] [cursor=pointer]:
+                  - /url: /docs/82379/1330310?lang=zh
+                  - generic [ref=e529]: 查询 Model ID
+                - text: 。
+              - generic [ref=e530]:
+                - text: 您也可通过 Endpoint ID 来调用模型，获得限流、计费类型（前付费/后付费）、运行状态查询、监控、安全等高级能力，可参考
+                - link "获取 Endpoint ID" [ref=e533] [cursor=pointer]:
+                  - /url: /docs/82379/1099522?lang=zh
+                  - generic [ref=e534]: 获取 Endpoint ID
+                - text: 。
+              - generic [ref=e539]:
+                - text: content
+                - generic [ref=e541]: object[]
+                - generic [ref=e543]: 必选
+              - generic [ref=e544]: 输入给模型，生成视频的信息，支持文本、图片、音频、视频、样片任务 ID。
+              - generic [ref=e545]:
+                - generic [ref=e546]: 注意
+                - generic [ref=e547]:
+                  - text: Seedance 2.0 系列模型不支持直接上传含有真人人脸的参考图/视频。为了便利创作者对肖像的使用，平台推出了以下解决方案，详情参见
+                  - link "教程" [ref=e550] [cursor=pointer]:
+                    - /url: /docs/82379/2291680?lang=zh#5c67c9a1
+                    - generic [ref=e551]: 教程
+                  - text: 。
+                - list [ref=e553]:
+                  - listitem [ref=e554]: • 支持使用部分模型的含人脸原始产物作为输入素材
+                - list [ref=e556]:
+                  - listitem [ref=e557]: • 支持使用预置虚拟人像作为输入素材
+                - list [ref=e559]:
+                  - listitem [ref=e560]: • 支持使用已授权真人素材作为输入
+              - generic [ref=e561]: 支持以下几种组合：
+              - list [ref=e563]:
+                - listitem [ref=e564]: • 文本
+              - list [ref=e566]:
+                - listitem [ref=e567]: • 文本（可选）+ 图片
+              - list [ref=e569]:
+                - listitem [ref=e570]: • 文本（可选）+ 视频
+              - list [ref=e572]:
+                - listitem [ref=e573]: • 文本（可选）+ 图片 + 音频
+              - list [ref=e575]:
+                - listitem [ref=e576]: • 文本（可选）+ 图片 + 视频
+              - list [ref=e578]:
+                - listitem [ref=e579]: • 文本（可选）+ 视频 + 音频
+              - list [ref=e581]:
+                - listitem [ref=e582]: • 文本（可选）+ 图片 + 视频 + 音频
+              - list [ref=e584]:
+                - listitem [ref=e585]: • 样片任务 ID：样片指使用 Seedance 模型成功生成的样片视频，模型可基于样片生成高质量正式视频。
+              - generic [ref=e589]:
+                - img [ref=e591] [cursor=pointer]
+                - generic [ref=e593]:
+                  - generic [ref=e594]: 信息类型
+                  - generic [ref=e599]:
+                    - text: 文本信息
+                    - generic [ref=e601]: object
+                  - generic [ref=e602]: 输入给模型的提示词信息。
+                  - generic [ref=e606]:
+                    - img [ref=e608] [cursor=pointer]
+                    - generic [ref=e610]:
+                      - generic [ref=e611]: 属性
+                      - generic [ref=e616]:
+                        - text: content.type
+                        - generic [ref=e618]: string
+                        - generic [ref=e620]: 必选
+                      - generic [ref=e621]:
+                        - text: 输入内容的类型，此处应为
+                        - generic [ref=e623]: text
+                        - text: 。
+                      - generic [ref=e628]:
+                        - text: content.text
+                        - generic [ref=e630]: string
+                        - generic [ref=e632]: 必选
+                      - generic [ref=e633]: 输入给模型的文本提示词，描述期望生成的视频。
+                      - generic [ref=e634]:
+                        - generic [ref=e635]: 说明
+                        - list [ref=e637]:
+                          - listitem [ref=e638]: • 提示词语言支持：所有模型均支持中英文提示词；Seedance 2.0 系列额外支持日语、印尼语、西班牙语、葡萄牙语。
+                        - list [ref=e640]:
+                          - listitem [ref=e641]: • 提示词字数建议：中文提示词不超过500字，英文提示词不超过1000词。字数过多易导致信息分散，模型可能忽略细节、仅关注重点，进而造成视频缺失部分元素。
+                        - list [ref=e643]:
+                          - listitem [ref=e644]:
+                            - text: • 更多使用技巧：提示词的详细使用技巧，请参见
+                            - link "Seedance 提示词指南" [ref=e647] [cursor=pointer]:
+                              - /url: /docs/82379/2222480?lang=zh
+                              - generic [ref=e648]: Seedance 提示词指南
+                            - text: 。
+                  - generic [ref=e653]:
+                    - text: 图片信息
+                    - generic [ref=e656]: new
+                    - generic [ref=e658]: object
+                  - generic [ref=e659]: 输入给模型的图片信息。
+                  - generic [ref=e663]:
+                    - img [ref=e665] [cursor=pointer]
+                    - generic [ref=e667]:
+                      - generic [ref=e668]: 属性
+                      - generic [ref=e673]:
+                        - text: content.type
+                        - generic [ref=e675]: string
+                        - generic [ref=e677]: 必选
+                      - generic [ref=e678]:
+                        - text: 输入内容的类型，此处应为
+                        - generic [ref=e680]: image_url
+                        - text: 。
+                      - generic [ref=e685]:
+                        - text: content.image_url
+                        - generic [ref=e687]: object
+                        - generic [ref=e689]: 必选
+                      - generic [ref=e690]: 输入给模型的图片对象。
+                      - generic [ref=e694]:
+                        - img [ref=e696] [cursor=pointer]
+                        - generic [ref=e698]:
+                          - generic [ref=e699]: 属性
+                          - generic [ref=e704]:
+                            - text: content.image_url.url
+                            - generic [ref=e706]: string
+                            - generic [ref=e708]: 必选
+                          - generic [ref=e709]: 图片 URL 、图片 Base64 编码、素材 ID。
+                          - list [ref=e711]:
+                            - listitem [ref=e712]: • 图片 URL：填入图片的公网 URL。
+                          - list [ref=e714]:
+                            - listitem [ref=e715]:
+                              - text: • Base64 编码：将本地文件转换为 Base64 编码字符串，然后提交给大模型。遵循格式：
+                              - generic [ref=e717]: data:image/<图片格式>;base64,<Base64编码>
+                              - text: ，注意
+                              - generic [ref=e719]: <图片格式>
+                              - text: 需小写，如
+                              - generic [ref=e721]: "data:image/png;base64,{base64_image}"
+                              - text: 。
+                          - list [ref=e723]:
+                            - listitem [ref=e724]:
+                              - text: • 素材 ID：用于视频生成的预置素材及虚拟人像的 ID，遵循格式：asset://<ASSET_ID>。可从
+                              - link "素材&虚拟人像库" [ref=e727] [cursor=pointer]:
+                                - /url: https://console.volcengine.com/ark/region:ark+cn-beijing/experience/vision?modelId=doubao-seedance-2-0-260128
+                                - generic [ref=e728]: 素材&虚拟人像库
+                              - text: 获取。
+                          - generic [ref=e729]:
+                            - generic [ref=e730]: 说明
+                            - generic [ref=e731]: 传入单张图片要求
+                            - list [ref=e733]:
+                              - listitem [ref=e734]: • 格式：jpeg、png、webp、bmp、tiff、gif。其中，Seedance 1.5 Pro 和 Seedance 2.0 系列模型新增支持 heic 和 heif。
+                            - list [ref=e736]:
+                              - listitem [ref=e737]: • 宽高比（宽/高）： (0.4, 2.5)
+                            - list [ref=e739]:
+                              - listitem [ref=e740]: • 宽高长度（px）：(300, 6000)
+                            - list [ref=e742]:
+                              - listitem [ref=e743]: • 大小：单张图片小于 30 MB。请求体大小不超过 64 MB。大文件请勿使用Base64编码。
+                            - list [ref=e745]:
+                              - listitem [ref=e746]: • 图片数量：
+                            - list [ref=e748]:
+                              - listitem [ref=e749]: ◦ 图生视频-首帧：1 张
+                            - list [ref=e751]:
+                              - listitem [ref=e752]: ◦ 图生视频-首尾帧：2 张
+                            - list [ref=e754]:
+                              - listitem [ref=e755]: ◦ Seedance 2.0 系列 多模态参考生视频：1~9 张
+                      - generic [ref=e760]:
+                        - text: content.role
+                        - generic [ref=e762]: string
+                        - generic [ref=e764]: 条件必填
+                      - generic [ref=e765]: 图片的位置或用途。
+                      - generic [ref=e766]:
+                        - generic [ref=e767]: 注意
+                        - list [ref=e769]:
+                          - listitem [ref=e770]: • 图生视频-首帧、图生视频-首尾帧、多模态参考生视频（包括参考图、视频、音频）为 3 种互斥场景，不可混用。
+                        - list [ref=e772]:
+                          - listitem [ref=e773]: • 多模态参考生视频可通过提示词指定参考图片作为首帧/尾帧，间接实现“首尾帧+多模态参考”效果。若需严格保障首尾帧和指定图片一致，优先使用图生视频-首尾帧（配置 role 为 first_frame/last_frame）。
+                      - generic [ref=e777]:
+                        - img [ref=e779] [cursor=pointer]
+                        - generic [ref=e781]:
+                          - generic [ref=e782]: 图生视频-首帧
+                          - list [ref=e784]:
+                            - listitem [ref=e785]: • 支持模型：所有模型
+                          - list [ref=e787]:
+                            - listitem [ref=e788]: • 字段role取值：需要传入1个 image_url 对象，字段 role 为 first_frame 或不填。
+                      - generic [ref=e792]:
+                        - img [ref=e794] [cursor=pointer]
+                        - generic [ref=e796]:
+                          - generic [ref=e797]: 图生视频-首尾帧
+                          - list [ref=e799]:
+                            - listitem [ref=e800]: • 支持模型：Seedance 2.0 系列，Seedance 1.5 Pro、Seedance 1.0 Pro
+                          - list [ref=e802]:
+                            - listitem [ref=e803]: • 字段role取值：需要传入2个image_url对象，且字段 role 必填。
+                          - list [ref=e805]:
+                            - listitem [ref=e806]: ◦ 首帧图片对应的字段 role 为：first_frame
+                          - list [ref=e808]:
+                            - listitem [ref=e809]: ◦ 尾帧图片对应的字段 role 为：last_frame
+                          - generic [ref=e810]:
+                            - generic [ref=e811]: 说明
+                            - generic [ref=e812]: 传入的首尾帧图片可相同。首尾帧图片的宽高比不一致时，以首帧图片为主，尾帧图片会自动裁剪适配。
+                      - generic [ref=e816]:
+                        - img [ref=e818] [cursor=pointer]
+                        - generic [ref=e820]:
+                          - generic [ref=e821]: 图生视频-参考图
+                          - list [ref=e823]:
+                            - listitem [ref=e824]: • 支持模型：Seedance 2.0 系列（1~9 张图片）
+                          - list [ref=e826]:
+                            - listitem [ref=e827]: • 字段role取值：必填，每张参考图对应的字段 role 均为：reference_image
+                  - generic [ref=e832]:
+                    - text: 视频信息
+                    - generic [ref=e835]: new
+                    - generic [ref=e837]: object
+                  - generic [ref=e838]: 输入给模型的视频信息。仅 Seedance 2.0 系列支持输入视频。
+                  - generic [ref=e839]:
+                    - text: 方舟平台信任 Seedance 2.0 系列模型生成的含人脸视频，您可使用本账号下近30天内由上述模型生成的含人脸原始视频，作为输入素材进行二次创作，详情参见
+                    - link "教程" [ref=e842] [cursor=pointer]:
+                      - /url: /docs/82379/2291680?lang=zh#341d7f71
+                      - generic [ref=e843]: 教程
+                    - text: 。
+                  - generic [ref=e847]:
+                    - img [ref=e849] [cursor=pointer]
+                    - generic [ref=e851]:
+                      - generic [ref=e852]: 属性
+                      - generic [ref=e853]:
+                        - text: content.type
+                        - generic [ref=e855]: string
+                        - generic [ref=e857]: 必选
+                      - generic [ref=e858]:
+                        - text: 输入内容的类型，此处应为
+                        - generic [ref=e860]: video_url
+                        - text: 。
+                      - generic [ref=e865]:
+                        - text: content.video_url
+                        - generic [ref=e867]: object
+                        - generic [ref=e869]: 必选
+                      - generic [ref=e870]: 输入给模型的视频对象。
+                      - generic [ref=e874]:
+                        - img [ref=e876] [cursor=pointer]
+                        - generic [ref=e878]:
+                          - generic [ref=e879]: 属性
+                          - generic [ref=e880]:
+                            - text: content.video_url.url
+                            - generic [ref=e882]: string
+                            - generic [ref=e884]: 必选
+                          - generic [ref=e885]: 视频URL、素材 ID。
+                          - list [ref=e887]:
+                            - listitem [ref=e888]: • 视频 URL：填入视频的公网 URL。
+                          - list [ref=e890]:
+                            - listitem [ref=e891]:
+                              - text: • 素材 ID：用于视频生成的预置素材及虚拟人像视频的 ID，遵循格式：asset://<ASSET_ID>。可从
+                              - link "素材&虚拟人像库" [ref=e894] [cursor=pointer]:
+                                - /url: https://console.volcengine.com/ark/region:ark+cn-beijing/experience/vision?modelId=doubao-seedance-2-0-260128
+                                - generic [ref=e895]: 素材&虚拟人像库
+                              - text: 获取。
+                          - generic [ref=e896]:
+                            - generic [ref=e897]: 说明
+                            - generic [ref=e898]: 传入单个视频要求
+                            - list [ref=e900]:
+                              - listitem [ref=e901]: • 视频格式：mp4、mov，支持编码格式见下表。
+                            - list [ref=e903]:
+                              - listitem [ref=e904]: • 分辨率：480p，720p，1080p，4k
+                            - list [ref=e906]:
+                              - listitem [ref=e907]: • 时长：单个视频时长 [2, 15] s，最多传入 3 个参考视频，所有视频总时长不超过 15s。
+                            - list [ref=e909]:
+                              - listitem [ref=e910]: • 尺寸：
+                            - list [ref=e912]:
+                              - listitem [ref=e913]: ◦ 宽高比（宽/高）：[0.4, 2.5]
+                            - list [ref=e915]:
+                              - listitem [ref=e916]: ◦ 宽高长度（px）：[300, 6000]
+                            - list [ref=e918]:
+                              - listitem [ref=e919]: ◦ 总像素数：[640×640=409600, 3326×2494=8295044]，即宽和高的乘积符合 [409600, 8295044] 的区间要求。
+                            - list [ref=e921]:
+                              - listitem [ref=e922]: • 大小：单个视频不超过 200 MB。
+                            - list [ref=e924]:
+                              - listitem [ref=e925]: • 帧率 (FPS)：[24, 60]
+                          - table [ref=e933]:
+                            - rowgroup [ref=e939]:
+                              - row "容器格式 常用文件扩展名 MIME 支持编码" [ref=e940]:
+                                - cell "容器格式" [ref=e941]:
+                                  - generic [ref=e945]: 容器格式
+                                - cell "常用文件扩展名" [ref=e946]:
+                                  - generic [ref=e950]: 常用文件扩展名
+                                - cell "MIME" [ref=e951]:
+                                  - generic [ref=e955]: MIME
+                                - cell "支持编码" [ref=e956]:
+                                  - generic [ref=e960]: 支持编码
+                              - row "MP4 .mp4 video/mp4 视频：H.264/AVC、H.265/HEVC 音频：AAC、MP3" [ref=e961]:
+                                - cell "MP4" [ref=e962]:
+                                  - generic [ref=e966]: MP4
+                                - cell ".mp4" [ref=e967]:
+                                  - generic [ref=e971]: .mp4
+                                - cell "video/mp4" [ref=e972]:
+                                  - generic [ref=e976]: video/mp4
+                                - cell "视频：H.264/AVC、H.265/HEVC 音频：AAC、MP3" [ref=e977]:
+                                  - generic [ref=e980]:
+                                    - generic [ref=e981]: 视频：H.264/AVC、H.265/HEVC
+                                    - generic [ref=e982]: 音频：AAC、MP3
+                              - row "QuickTime .mov video/quicktime 视频：H.264/AVC、H.265/HEVC 音频：AAC、MP3" [ref=e983]:
+                                - cell "QuickTime" [ref=e984]:
+                                  - generic [ref=e988]: QuickTime
+                                - cell ".mov" [ref=e989]:
+                                  - generic [ref=e993]: .mov
+                                - cell "video/quicktime" [ref=e994]:
+                                  - generic [ref=e998]: video/quicktime
+                                - cell "视频：H.264/AVC、H.265/HEVC 音频：AAC、MP3" [ref=e999]:
+                                  - generic [ref=e1002]:
+                                    - generic [ref=e1003]: 视频：H.264/AVC、H.265/HEVC
+                                    - generic [ref=e1004]: 音频：AAC、MP3
+                      - generic [ref=e1012]:
+                        - text: content.role
+                        - generic [ref=e1014]: string
+                        - generic [ref=e1016]: 条件必填
+                      - generic [ref=e1017]: 视频的位置或用途。当前仅支持 reference_video：参考视频。
+                  - generic [ref=e1022]:
+                    - text: 音频信息
+                    - generic [ref=e1025]: new
+                    - generic [ref=e1027]: object
+                  - generic [ref=e1028]: 输入给模型的音频信息。仅 Seedance 2.0 系列支持输入音频。
+                  - generic [ref=e1029]: 注意不可单独输入音频，应至少包含 1 个参考视频或图片。
+                  - generic [ref=e1033]:
+                    - img [ref=e1035] [cursor=pointer]
+                    - generic [ref=e1037]:
+                      - generic [ref=e1038]: 属性
+                      - generic [ref=e1039]:
+                        - text: content.type
+                        - generic [ref=e1041]: string
+                        - generic [ref=e1043]: 必选
+                      - generic [ref=e1044]:
+                        - text: 输入内容的类型，此处应为
+                        - generic [ref=e1046]: audio_url
+                        - text: 。
+                      - generic [ref=e1051]:
+                        - text: content.audio_url
+                        - generic [ref=e1053]: object
+                        - generic [ref=e1055]: 必选
+                      - generic [ref=e1056]: 输入给模型的音频对象。
+                      - generic [ref=e1060]:
+                        - img [ref=e1062] [cursor=pointer]
+                        - generic [ref=e1064]:
+                          - generic [ref=e1065]: 属性
+                          - text: • • • • • •
+                      - generic [ref=e1070]:
+                        - text: content.role
+                        - generic [ref=e1072]: string
+                        - generic [ref=e1074]: 条件必填
+                      - generic [ref=e1075]: 音频的位置或用途。当前仅支持 reference_audio：参考音频。
+                  - generic [ref=e1080]:
+                    - text: 样片信息
+                    - generic [ref=e1082]: object
+                  - generic [ref=e1083]:
+                    - text: 基于样片任务 ID，生成正式视频。仅 Seedance 1.5 Pro 支持该功能。
+                    - link "阅读" [ref=e1086] [cursor=pointer]:
+                      - /url: /docs/82379/1366799?lang=zh#5acd28c8
+                      - generic [ref=e1087]: 阅读
+                    - link "文档" [ref=e1090] [cursor=pointer]:
+                      - /url: /docs/82379/1366799?lang=zh#5acd28c8
+                      - generic [ref=e1091]: 文档
+                    - text: 获取 draft 功能的使用教程和注意事项。
+                  - generic [ref=e1095]:
+                    - img [ref=e1097] [cursor=pointer]
+                    - generic [ref=e1099]:
+                      - generic [ref=e1100]: 属性
+                      - generic [ref=e1105]:
+                        - text: content.type
+                        - generic [ref=e1107]: string
+                        - generic [ref=e1109]: 必选
+                      - generic [ref=e1110]:
+                        - text: 输入内容的类型，此处应为
+                        - generic [ref=e1112]: draft_task
+                        - text: 。
+                      - generic [ref=e1117]:
+                        - text: content.draft_task
+                        - generic [ref=e1119]: object
+                        - generic [ref=e1121]: 必选
+                      - generic [ref=e1122]: 输入给模型的样片任务。
+                      - generic [ref=e1126]:
+                        - img [ref=e1128] [cursor=pointer]
+                        - generic [ref=e1130]:
+                          - generic [ref=e1131]: 属性
+                          - generic [ref=e1136]:
+                            - text: content.draft_task.id
+                            - generic [ref=e1138]: string
+                            - generic [ref=e1140]: 必选
+                          - generic [ref=e1141]: 样片任务 ID。平台将自动复用 Draft 视频使用的用户输入（**model、**content.**text、**content.image_url、generate_audio、seed、ratio、duration、camera_fixed ），生成正式视频。其余参数支持指定，不指定将使用本模型的默认值。
+                          - generic [ref=e1142]:
+                            - text: "使用分为两步：Step1: 调用本接口生成 Draft 视频。Step2: 如果确认 Draft 视频符合预期，可基于 Step1 返回的 Draft 视频任务 ID，调用本接口生成最终视频。"
+                            - link "阅读文档" [ref=e1145] [cursor=pointer]:
+                              - /url: /docs/82379/1366799?lang=zh#5acd28c8
+                              - generic [ref=e1146]: 阅读文档
+                            - text: 获取详细教程。
+              - generic [ref=e1151]:
+                - text: callback_url
+                - generic [ref=e1153]: string
+              - generic [ref=e1154]: 填写本次生成任务结果的回调通知地址。当视频生成任务有状态变化时，方舟将向此地址推送 POST 请求。
+              - generic [ref=e1155]:
+                - text: 回调请求内容结构与
+                - link "查询任务API" [ref=e1158] [cursor=pointer]:
+                  - /url: /docs/82379/1521309?lang=zh
+                  - generic [ref=e1159]: 查询任务API
+                - text: 的返回体一致。
+              - generic [ref=e1160]: 回调返回的 status 包括以下状态：
+              - list [ref=e1162]:
+                - listitem [ref=e1163]: • queued：排队中。
+              - list [ref=e1165]:
+                - listitem [ref=e1166]: • running：任务运行中。
+              - list [ref=e1168]:
+                - listitem [ref=e1169]: • succeeded： 任务成功。（如发送失败，即5秒内没有接收到成功发送的信息，回调三次）
+              - list [ref=e1171]:
+                - listitem [ref=e1172]: • failed：任务失败。（如发送失败，即5秒内没有接收到成功发送的信息，回调三次）
+              - list [ref=e1174]:
+                - listitem [ref=e1175]: • expired：任务超时，即任务处于运行中或排队中状态超过过期时间。可通过execution_expires_after 字段设置过期时间。
+              - generic [ref=e1180]:
+                - text: return_last_frame
+                - generic [ref=e1182]: boolean
+                - generic [ref=e1184]: 默认值 false
+              - list [ref=e1186]:
+                - listitem [ref=e1187]:
+                  - text: • true：返回生成视频的尾帧图像。设置为
+                  - generic [ref=e1189]: "true"
+                  - text: 后，可通过
+                  - link "查询视频生成任务接口" [ref=e1192] [cursor=pointer]:
+                    - /url: /docs/82379/1521309?lang=zh
+                    - generic [ref=e1193]: 查询视频生成任务接口
+                  - text: 获取视频的尾帧图像。尾帧图像的格式为 png，宽高像素值与生成的视频保持一致，无水印。
+              - list [ref=e1195]:
+                - listitem [ref=e1196]:
+                  - text: 使用该参数可实现生成多个连续视频：以上一个生成视频的尾帧作为下一个视频任务的首帧，快速生成多个连续视频，调用示例详见
+                  - link "教程" [ref=e1199] [cursor=pointer]:
+                    - /url: /docs/82379/1366799?lang=zh#141cf7fa
+                    - generic [ref=e1200]: 教程
+                  - text: 。
+              - list [ref=e1202]:
+                - listitem [ref=e1203]: • false：不返回生成视频的尾帧图像。
+              - generic [ref=e1208]:
+                - text: service_tier
+                - generic [ref=e1210]: string
+                - generic [ref=e1212]: 默认值 default
+              - generic [ref=e1213]:
+                - generic [ref=e1214]: 不支持修改已提交任务的服务等级
+                - generic [ref=e1215]: Seedance 2.0 系列仅支持在线推理模式，不支持配置该参数
+              - generic [ref=e1216]: 指定处理本次请求的服务等级类型，枚举值：
+              - list [ref=e1218]:
+                - listitem [ref=e1219]:
+                  - text: • default：在线推理模式，RPM 和并发数配额较低（详见
+                  - link "模型列表" [ref=e1222] [cursor=pointer]:
+                    - /url: /docs/82379/1330310?lang=zh#7571da3f
+                    - generic [ref=e1223]: 模型列表
+                  - text: ），适合对推理时效性要求较高的场景。
+              - list [ref=e1225]:
+                - listitem [ref=e1226]:
+                  - text: • flex：离线推理模式，TPD 配额更高（详见
+                  - link "模型列表" [ref=e1229] [cursor=pointer]:
+                    - /url: /docs/82379/1330310?lang=zh#7571da3f
+                    - generic [ref=e1230]: 模型列表
+                  - text: ），价格为在线推理的 50%， 适合对推理时延要求不高的场景。
+              - generic [ref=e1235]:
+                - text: execution_expires_after
+                - generic [ref=e1237]: integer
+                - generic [ref=e1239]: 默认值 172800
+              - generic [ref=e1240]: 任务超时阈值。指定任务提交后的过期时间（单位：秒），从 created at 时间戳开始计算。默认值 172800 秒，即 48 小时。取值范围：[3600，259200]。
+              - generic [ref=e1241]:
+                - text: 不论使用哪种 service_tier，都建议根据业务场景设置合适的超时时间。超过该时间后任务会被自动终止，并标记为
+                - generic [ref=e1243]: expired
+                - text: 状态。
+              - generic [ref=e1248]:
+                - text: generate_audio
+                - generic [ref=e1250]: boolean
+                - generic [ref=e1252]: 默认值 true
+              - generic [ref=e1254]: 仅 Seedance 2.0 系列、Seedance 1.5 Pro 支持
+              - generic [ref=e1255]: 控制生成的视频是否包含与画面同步的声音。
+              - list [ref=e1257]:
+                - listitem [ref=e1258]: • true：模型输出的视频包含同步音频。模型会基于文本提示词与视觉内容，自动生成与之匹配的人声、音效及背景音乐。建议将对话部分置于双引号内，以优化音频生成效果。例如：男人叫住女人说：“你记住，以后不可以用手指指月亮。”
+              - list [ref=e1260]:
+                - listitem [ref=e1261]: • false：模型输出的视频为无声视频。
+              - generic [ref=e1262]:
+                - generic [ref=e1263]: 注意
+                - generic [ref=e1264]: 生成的有声视频均为单声道，和传入的音频声道数无关。
+              - generic [ref=e1269]:
+                - text: draft
+                - generic [ref=e1271]: boolean
+                - generic [ref=e1273]: 默认值 false
+              - generic [ref=e1275]: 仅 Seedance 1.5 Pro 支持
+              - generic [ref=e1276]:
+                - text: 控制是否开启样片模式。
+                - link "阅读文档" [ref=e1279] [cursor=pointer]:
+                  - /url: /docs/82379/1366799?lang=zh#5acd28c8
+                  - generic [ref=e1280]: 阅读文档
+                - text: 获取使用教程和注意事项。
+              - list [ref=e1282]:
+                - listitem [ref=e1283]: • true：开启样片模式，生成一段预览视频，快速验证场景结构、镜头调度、主体动作与 Prompt 意图是否符合预期。消耗 token 数较正常视频更少，使用成本更低。
+              - list [ref=e1285]:
+                - listitem [ref=e1286]: • false：关闭样片模式，正常生成一段视频。
+              - generic [ref=e1287]:
+                - generic [ref=e1288]: 说明
+                - generic [ref=e1289]: 开启样片模式后，将使用 480p 分辨率生成 Draft 视频（使用其他分辨率会报错），不支持返回尾帧功能，不支持离线推理功能。
+              - generic [ref=e1294]:
+                - text: tools
+                - generic [ref=e1297]: new
+                - generic [ref=e1299]: object[]
+              - generic [ref=e1301]: 仅 Seedance 2.0 系列 支持
+              - generic [ref=e1302]: 配置模型要调用的工具。
+              - generic [ref=e1306]:
+                - img [ref=e1308] [cursor=pointer]
+                - generic [ref=e1310]:
+                  - generic [ref=e1311]: 属性
+                  - generic [ref=e1312]:
+                    - text: tools.type
+                    - generic [ref=e1314]: string
+                  - generic [ref=e1315]: 指定使用的工具类型。
+                  - list [ref=e1317]:
+                    - listitem [ref=e1318]:
+                      - text: • web_search：联网搜索工具。
+                      - link "阅读教程" [ref=e1321] [cursor=pointer]:
+                        - /url: /docs/82379/2291680?lang=zh#c40ed3ef
+                        - generic [ref=e1322]: 阅读教程
+                      - text: 获取详细代码示例。
+                  - generic [ref=e1323]:
+                    - generic [ref=e1324]: 说明
+                    - list [ref=e1326]:
+                      - listitem [ref=e1327]: • 开启联网搜索后，模型会根据用户的提示词自主判断是否搜索互联网内容（如商品、天气等）。可提升生成视频的时效性，但也会增加一定的时延。
+                    - list [ref=e1329]:
+                      - listitem [ref=e1330]:
+                        - text: • 实际搜索次数可通过
+                        - link "查询视频生成任务 API" [ref=e1333] [cursor=pointer]:
+                          - /url: /docs/82379/1521309?lang=zh
+                          - generic [ref=e1334]: 查询视频生成任务 API
+                        - text: 返回的 usage.tool_usage.web_search 字段获取，如果为 0 表示未搜索。
+              - generic [ref=e1339]:
+                - text: safety_identifier
+                - generic [ref=e1342]: new
+                - generic [ref=e1344]: string
+              - generic [ref=e1345]: 终端用户的唯一标识符，用于协助平台检测您的应用中可能违反火山方舟使用政策的用户。该标识符为英文字符串，需保证对单个用户固定且唯一，长度不超过 64 个字符。推荐传入对用户名、用户 ID 或邮箱进行哈希处理后生成的字符串，避免泄露用户隐私信息。
+              - generic [ref=e1350]:
+                - text: priority
+                - generic [ref=e1353]: new
+                - generic [ref=e1355]: integer
+                - generic [ref=e1357]: 默认值 0
+              - generic [ref=e1359]: 仅 Seedance 2.0 系列支持
+              - generic [ref=e1360]: 设置当前请求的执行优先级，决定其在队列中的排序位置。取值范围：0~9，数值越大，优先级越高。
+              - generic [ref=e1361]: 默认情况下，请求按 FIFO（First In, First Out，先进先出）顺序执行。设置较高优先级后，该请求将插队到同 Endpoint（推理接入点）下所有低优先级请求之前。
+              - generic [ref=e1362]: 示例：
+              - generic [ref=e1363]:
+                - text: 某 Endpoint 当前队列中有 3 个排队中（status=
+                - generic [ref=e1365]: queued
+                - text: ）任务，优先级均为 0（默认）。
+              - generic [ref=e1366]: "队列：[任务A: priority=0] → [任务B: priority=0] → [任务C: priority=0]"
+              - generic [ref=e1367]: 此时提交一个 priority=5 的新请求，该请求将直接排到队首：
+              - generic [ref=e1368]: "队列：[新请求: priority=5] → [任务A: priority=0] → [任务B: priority=0] → [任务C: priority=0]"
+              - generic [ref=e1369]:
+                - generic [ref=e1370]: 说明
+                - list [ref=e1372]:
+                  - listitem [ref=e1373]: • 相同优先级的请求之间仍按 FIFO 排序。
+                - list [ref=e1375]:
+                  - listitem [ref=e1376]:
+                    - text: • 优先级仅影响排队顺序，不会中断正在执行中（status=
+                    - generic [ref=e1378]: running
+                    - text: ）的任务。
+                - list [ref=e1380]:
+                  - listitem [ref=e1381]: • 优先级仅在同一 Endpoint 内生效，不影响其他 Endpoint。
+                - list [ref=e1383]:
+                  - listitem [ref=e1384]: • 离线推理模式（service_tier=flex）不支持配置优先级。
+              - generic [ref=e1389]:
+                - generic [ref=e1390]: 注意
+                - generic [ref=e1391]: 部分参数升级说明
+                - list [ref=e1393]:
+                  - listitem [ref=e1394]: • 对于 resolution、ratio、duration、frames、seed、camera_fixed、watermark 参数，平台升级了参数传入方式，示例如下。所有模型依然兼容支持旧方式。
+                - list [ref=e1396]:
+                  - listitem [ref=e1397]:
+                    - text: • 不同模型，可能对应支持不同的参数与取值，详见
+                    - link "输出视频格式" [ref=e1400] [cursor=pointer]:
+                      - /url: /docs/82379/1366799?lang=zh#9fe4cce0
+                      - generic [ref=e1401]: 输出视频格式
+                    - text: 。当输入的参数或取值不符合所选的模型时，该参数将被忽略或触发报错：
+                - list [ref=e1403]:
+                  - listitem [ref=e1404]: ◦ 新方式：在 request body 中直接传入参数。此方式为强校验，若参数填写错误，模型会返回错误提示。
+                - list [ref=e1406]:
+                  - listitem [ref=e1407]: ◦ 旧方式：在文本提示词后追加 --[parameters]。此方式为弱校验，若参数填写错误，该参数将被忽略或触发报错。
+              - generic [ref=e1411]:
+                - img [ref=e1413] [cursor=pointer]
+                - generic [ref=e1415]:
+                  - generic [ref=e1416]: 新方式（推荐）：在 request body 中直接传入参数
+                  - generic [ref=e1420]:
+                    - generic [ref=e1421]:
+                      - button "JSON" [ref=e1423]:
+                        - generic [ref=e1424]: JSON
+                      - button "复制" [ref=e1425] [cursor=pointer]:
+                        - img [ref=e1426]
+                        - generic [ref=e1428]: 复制
+                    - generic [ref=e1430]:
+                      - generic [ref=e1432]: 1 ...
+                      - generic [ref=e1434]: 2 // Specify the aspect ratio of the generated video as 16:9, duration as 5 seconds, resolution as 720p, seed as 11, and include a watermark. The camera is not fixed.
+                      - generic [ref=e1436]: "3 \"model\": \"doubao-seedance-1-5-Pro-251215\","
+                      - generic [ref=e1438]: "4 \"content\": ["
+                      - generic [ref=e1440]: "5 {"
+                      - generic [ref=e1442]: "6 \"type\": \"text\","
+                      - generic [ref=e1444]: "7 \"text\": \"小猫对着镜头打哈欠\""
+                      - generic [ref=e1446]: "8 }"
+                      - generic [ref=e1448]: 9 ],
+                      - generic [ref=e1450]: 10 // All parameters must be written in full; abbreviations are not supported
+                      - generic [ref=e1452]: "11 \"resolution\": \"720p\","
+                      - generic [ref=e1454]: 12 "ratio":"16:9",
+                      - generic [ref=e1456]: "13 \"duration\": 5,"
+                      - generic [ref=e1458]: "14 // \"frames\": 29, Either duration or frames is required"
+                      - generic [ref=e1460]: "15 \"seed\": 11,"
+                      - generic [ref=e1462]: "16 \"camera_fixed\": false,"
+                      - generic [ref=e1464]: "17 \"watermark\": true"
+                      - generic [ref=e1466]: 18 ...
+              - generic [ref=e1470]:
+                - img [ref=e1472] [cursor=pointer]
+                - generic [ref=e1474]:
+                  - generic [ref=e1475]: 旧方式：在文本提示词后追加 --[parameters]
+                  - generic [ref=e1479]:
+                    - generic [ref=e1480]:
+                      - button "JSON" [ref=e1482]:
+                        - generic [ref=e1483]: JSON
+                      - button "复制" [ref=e1484] [cursor=pointer]:
+                        - img [ref=e1485]
+                        - generic [ref=e1487]: 复制
+                    - generic [ref=e1489]:
+                      - generic [ref=e1491]: 1 ...
+                      - generic [ref=e1493]: 2 // Specify the aspect ratio of the generated video as 16:9, duration as 5 seconds, resolution as 720p, seed as 11, and include a watermark. The camera is not fixed.
+                      - generic [ref=e1495]: "3 \"model\": \"doubao-seedance-1-5-Pro-251215\","
+                      - generic [ref=e1497]: "4 \"content\": ["
+                      - generic [ref=e1499]: "5 {"
+                      - generic [ref=e1501]: "6 \"type\": \"text\","
+                      - generic [ref=e1503]: "7 \"text\": \"小猫对着镜头打哈欠 --rs 720p --rt 16:9 --dur 5 --seed 11 --cf false --wm true\""
+                      - generic [ref=e1505]: "8 // \"text\": \"小猫对着镜头打哈欠 --resolution 720p --ratio 16:9 --duration 5 --seed 11 --camerafixed false --watermark true\""
+                      - generic [ref=e1507]: "9 }"
+                      - generic [ref=e1509]: 10 ]
+                      - generic [ref=e1511]: 11 ...
+              - generic [ref=e1516]:
+                - text: resolution
+                - generic [ref=e1518]: string
+              - generic [ref=e1519]:
+                - generic [ref=e1520]:
+                  - text: Seedance 2.0 系列、Seedance 1.5 Pro 默认值：
+                  - generic [ref=e1522]: 720p
+                - generic [ref=e1523]:
+                  - text: Seedance 1.0 Pro、Seedance 1.0 Pro Fast 默认值：
+                  - generic [ref=e1525]: 1080p
+              - generic [ref=e1526]: 视频分辨率，枚举值：
+              - list [ref=e1528]:
+                - listitem [ref=e1529]: • 480p
+              - list [ref=e1531]:
+                - listitem [ref=e1532]: • 720p
+              - list [ref=e1534]:
+                - listitem [ref=e1535]: • 1080p：Seedance 2.0 Fast 和 2.0 Seedance 2.0 Mini 不支持。
+              - list [ref=e1537]:
+                - listitem [ref=e1538]:
+                  - text: • 4k
+                  - generic [ref=e1541]: new
+                  - text: ：仅 Seedance 2.0 支持。
+              - generic [ref=e1542]:
+                - generic [ref=e1543]: 说明
+                - list [ref=e1545]:
+                  - listitem [ref=e1546]: • 相较于一般的 8bit 位深，Seedance 2.0 输出的 4k 视频采用 10bit 位深编码，能够完整保留丰富的色彩层次与平滑的渐变过渡，满足专业影视制作与 HDR 视频内容的要求。
+                - list [ref=e1548]:
+                  - listitem [ref=e1549]: • 4k 视频采用 H.265 (HEVC) 编码格式输出，部分播放器/浏览器可能无法直接播放。
+              - generic [ref=e1554]:
+                - text: ratio
+                - generic [ref=e1556]: string
+              - generic [ref=e1557]:
+                - generic [ref=e1558]:
+                  - text: Seedance 2.0 系列、Seedance 1.5 Pro 默认值为
+                  - generic [ref=e1560]: adaptive
+                - generic [ref=e1561]:
+                  - text: 其他模型：文生视频默认值
+                  - generic [ref=e1563]: 16:9
+                  - text: ，图生视频默认值
+                  - generic [ref=e1565]: adaptive
+              - generic [ref=e1566]: 生成视频的宽高比例。不同宽高比对应的宽高像素值见下方表格。
+              - list [ref=e1568]:
+                - listitem [ref=e1569]: • 16:9
+              - list [ref=e1571]:
+                - listitem [ref=e1572]: • 4:3
+              - list [ref=e1574]:
+                - listitem [ref=e1575]: • 1:1
+              - list [ref=e1577]:
+                - listitem [ref=e1578]: • 3:4
+              - list [ref=e1580]:
+                - listitem [ref=e1581]: • 9:16
+              - list [ref=e1583]:
+                - listitem [ref=e1584]: • 21:9
+              - list [ref=e1586]:
+                - listitem [ref=e1587]: • adaptive：根据输入自动选择最合适的宽高比（详见下文说明）
+              - generic [ref=e1588]:
+                - generic [ref=e1589]: 注意
+                - generic [ref=e1590]: adaptive 适配规则
+                - generic [ref=e1591]:
+                  - text: 当配置 ratio 为
+                  - generic [ref=e1593]: adaptive
+                  - text: 时，模型会根据生成场景自动适配宽高比；实际生成的视频宽高比可通过
+                  - link "查询视频生成任务 API" [ref=e1596] [cursor=pointer]:
+                    - /url: /docs/82379/1521309?lang=zh
+                    - generic [ref=e1597]: 查询视频生成任务 API
+                  - text: 返回的 ratio 字段获取。
+                - generic [ref=e1598]: 支持模型：
+                - list [ref=e1600]:
+                  - listitem [ref=e1601]: • Seedance 2.0 系列、Seedance 1.5 Pro 支持
+                - list [ref=e1603]:
+                  - listitem [ref=e1604]: • 其他模型仅图生视频场景支持
+                - list [ref=e1606]:
+                  - listitem [ref=e1607]: 取值规则：
+                - list [ref=e1609]:
+                  - listitem [ref=e1610]: • 文生视频：根据输入的提示词，智能选择最合适的宽高比。
+                - list [ref=e1612]:
+                  - listitem [ref=e1613]: • 首帧 / 首尾帧生视频：根据上传的首帧图片比例，自动选择最接近的宽高比。
+                - list [ref=e1615]:
+                  - listitem [ref=e1616]: • 多模态参考生视频：根据用户提示词意图判断，如果是首帧生视频/编辑视频/延长视频，以该图片/视频为准选择最接近的宽高比；否则，以传入的第一个媒体文件为准（优先级：视频＞图片）选择最接近的宽高比。
+              - generic [ref=e1620]:
+                - img [ref=e1622] [cursor=pointer]
+                - generic [ref=e1624]:
+                  - generic [ref=e1625]: 不同宽高比对应的宽高像素值
+                  - generic [ref=e1626]:
+                    - text: Note：图生视频，选择的宽高比与您上传的图片宽高比不一致时，方舟会对您的图片进行裁剪，裁剪时会居中裁剪，详细规则见
+                    - link "图片裁剪规则" [ref=e1629] [cursor=pointer]:
+                      - /url: /docs/82379/1366799?lang=zh#f76aafc8
+                      - generic [ref=e1630]: 图片裁剪规则
+                    - text: 。
+                  - table [ref=e1638]:
+                    - rowgroup [ref=e1645]:
+                      - row "分辨率 宽高比 宽高像素值 Seedance 2.0 系列 宽高像素值 Seedance 1.5 pro 宽高像素值 Seedance 1.0 系列" [ref=e1646]:
+                        - cell "分辨率" [ref=e1647]:
+                          - generic [ref=e1651]: 分辨率
+                        - cell "宽高比" [ref=e1652]:
+                          - generic [ref=e1656]: 宽高比
+                        - cell "宽高像素值 Seedance 2.0 系列" [ref=e1657]:
+                          - generic [ref=e1660]:
+                            - generic [ref=e1661]: 宽高像素值
+                            - generic [ref=e1662]: Seedance 2.0 系列
+                        - cell "宽高像素值 Seedance 1.5 pro" [ref=e1663]:
+                          - generic [ref=e1666]:
+                            - generic [ref=e1667]: 宽高像素值
+                            - generic [ref=e1668]: Seedance 1.5 pro
+                        - cell "宽高像素值 Seedance 1.0 系列" [ref=e1669]:
+                          - generic [ref=e1672]:
+                            - generic [ref=e1673]: 宽高像素值
+                            - generic [ref=e1674]: Seedance 1.0 系列
+                      - row "480p 16:9 864×496 864×496 864×480" [ref=e1675]:
+                        - cell "480p" [ref=e1676]:
+                          - generic [ref=e1680]: 480p
+                        - cell "16:9" [ref=e1681]:
+                          - generic [ref=e1685]: 16:9
+                        - cell "864×496" [ref=e1686]:
+                          - generic [ref=e1690]: 864×496
+                        - cell "864×496" [ref=e1691]:
+                          - generic [ref=e1695]: 864×496
+                        - cell "864×480" [ref=e1696]:
+                          - generic [ref=e1700]: 864×480
+                      - row "4:3 752×560 752×560 736×544" [ref=e1701]:
+                        - cell "4:3" [ref=e1702]:
+                          - generic [ref=e1706]: 4:3
+                        - cell "752×560" [ref=e1707]:
+                          - generic [ref=e1711]: 752×560
+                        - cell "752×560" [ref=e1712]:
+                          - generic [ref=e1716]: 752×560
+                        - cell "736×544" [ref=e1717]:
+                          - generic [ref=e1721]: 736×544
+                      - row "1:1 640×640 640×640 640×640" [ref=e1722]:
+                        - cell "1:1" [ref=e1723]:
+                          - generic [ref=e1727]: 1:1
+                        - cell "640×640" [ref=e1728]:
+                          - generic [ref=e1732]: 640×640
+                        - cell "640×640" [ref=e1733]:
+                          - generic [ref=e1737]: 640×640
+                        - cell "640×640" [ref=e1738]:
+                          - generic [ref=e1742]: 640×640
+                      - row "3:4 560×752 560×752 544×736" [ref=e1743]:
+                        - cell "3:4" [ref=e1744]:
+                          - generic [ref=e1748]: 3:4
+                        - cell "560×752" [ref=e1749]:
+                          - generic [ref=e1753]: 560×752
+                        - cell "560×752" [ref=e1754]:
+                          - generic [ref=e1758]: 560×752
+                        - cell "544×736" [ref=e1759]:
+                          - generic [ref=e1763]: 544×736
+                      - row "9:16 496×864 496×864 480×864" [ref=e1764]:
+                        - cell "9:16" [ref=e1765]:
+                          - generic [ref=e1769]: 9:16
+                        - cell "496×864" [ref=e1770]:
+                          - generic [ref=e1774]: 496×864
+                        - cell "496×864" [ref=e1775]:
+                          - generic [ref=e1779]: 496×864
+                        - cell "480×864" [ref=e1780]:
+                          - generic [ref=e1784]: 480×864
+                      - row "21:9 992×432 992×432 960×416" [ref=e1785]:
+                        - cell "21:9" [ref=e1786]:
+                          - generic [ref=e1790]: 21:9
+                        - cell "992×432" [ref=e1791]:
+                          - generic [ref=e1795]: 992×432
+                        - cell "992×432" [ref=e1796]:
+                          - generic [ref=e1800]: 992×432
+                        - cell "960×416" [ref=e1801]:
+                          - generic [ref=e1805]: 960×416
+                      - row "720p 16:9 1280×720 1280×720 1248×704" [ref=e1806]:
+                        - cell "720p" [ref=e1807]:
+                          - generic [ref=e1811]: 720p
+                        - cell "16:9" [ref=e1812]:
+                          - generic [ref=e1816]: 16:9
+                        - cell "1280×720" [ref=e1817]:
+                          - generic [ref=e1821]: 1280×720
+                        - cell "1280×720" [ref=e1822]:
+                          - generic [ref=e1826]: 1280×720
+                        - cell "1248×704" [ref=e1827]:
+                          - generic [ref=e1831]: 1248×704
+                      - row "4:3 1112×834 1112×834 1120×832" [ref=e1832]:
+                        - cell "4:3" [ref=e1833]:
+                          - generic [ref=e1837]: 4:3
+                        - cell "1112×834" [ref=e1838]:
+                          - generic [ref=e1842]: 1112×834
+                        - cell "1112×834" [ref=e1843]:
+                          - generic [ref=e1847]: 1112×834
+                        - cell "1120×832" [ref=e1848]:
+                          - generic [ref=e1852]: 1120×832
+                      - row "1:1 960×960 960×960 960×960" [ref=e1853]:
+                        - cell "1:1" [ref=e1854]:
+                          - generic [ref=e1858]: 1:1
+                        - cell "960×960" [ref=e1859]:
+                          - generic [ref=e1863]: 960×960
+                        - cell "960×960" [ref=e1864]:
+                          - generic [ref=e1868]: 960×960
+                        - cell "960×960" [ref=e1869]:
+                          - generic [ref=e1873]: 960×960
+                      - row "3:4 834×1112 834×1112 832×1120" [ref=e1874]:
+                        - cell "3:4" [ref=e1875]:
+                          - generic [ref=e1879]: 3:4
+                        - cell "834×1112" [ref=e1880]:
+                          - generic [ref=e1884]: 834×1112
+                        - cell "834×1112" [ref=e1885]:
+                          - generic [ref=e1889]: 834×1112
+                        - cell "832×1120" [ref=e1890]:
+                          - generic [ref=e1894]: 832×1120
+                      - row "9:16 720×1280 720×1280 704×1248" [ref=e1895]:
+                        - cell "9:16" [ref=e1896]:
+                          - generic [ref=e1900]: 9:16
+                        - cell "720×1280" [ref=e1901]:
+                          - generic [ref=e1905]: 720×1280
+                        - cell "720×1280" [ref=e1906]:
+                          - generic [ref=e1910]: 720×1280
+                        - cell "704×1248" [ref=e1911]:
+                          - generic [ref=e1915]: 704×1248
+                      - row "21:9 1470×630 1470×630 1504×640" [ref=e1916]:
+                        - cell "21:9" [ref=e1917]:
+                          - generic [ref=e1921]: 21:9
+                        - cell "1470×630" [ref=e1922]:
+                          - generic [ref=e1926]: 1470×630
+                        - cell "1470×630" [ref=e1927]:
+                          - generic [ref=e1931]: 1470×630
+                        - cell "1504×640" [ref=e1932]:
+                          - generic [ref=e1936]: 1504×640
+                      - row "1080p Seedance 2.0 Fast、Seedance 2.0 Mini 不支持 16:9 1920×1080 1920×1080 1920×1088" [ref=e1937]:
+                        - cell "1080p Seedance 2.0 Fast、Seedance 2.0 Mini 不支持" [ref=e1938]:
+                          - generic [ref=e1941]:
+                            - generic [ref=e1942]: 1080p
+                            - generic [ref=e1944]: Seedance 2.0 Fast、Seedance 2.0 Mini 不支持
+                        - cell "16:9" [ref=e1945]:
+                          - generic [ref=e1949]: 16:9
+                        - cell "1920×1080" [ref=e1950]:
+                          - generic [ref=e1954]: 1920×1080
+                        - cell "1920×1080" [ref=e1955]:
+                          - generic [ref=e1959]: 1920×1080
+                        - cell "1920×1088" [ref=e1960]:
+                          - generic [ref=e1964]: 1920×1088
+                      - row "4:3 1664×1248 1664×1248 1664×1248" [ref=e1965]:
+                        - cell "4:3" [ref=e1966]:
+                          - generic [ref=e1970]: 4:3
+                        - cell "1664×1248" [ref=e1971]:
+                          - generic [ref=e1975]: 1664×1248
+                        - cell "1664×1248" [ref=e1976]:
+                          - generic [ref=e1980]: 1664×1248
+                        - cell "1664×1248" [ref=e1981]:
+                          - generic [ref=e1985]: 1664×1248
+                      - row "1:1 1440×1440 1440×1440 1440×1440" [ref=e1986]:
+                        - cell "1:1" [ref=e1987]:
+                          - generic [ref=e1991]: 1:1
+                        - cell "1440×1440" [ref=e1992]:
+                          - generic [ref=e1996]: 1440×1440
+                        - cell "1440×1440" [ref=e1997]:
+                          - generic [ref=e2001]: 1440×1440
+                        - cell "1440×1440" [ref=e2002]:
+                          - generic [ref=e2006]: 1440×1440
+                      - row "3:4 1248×1664 1248×1664 1248×1664" [ref=e2007]:
+                        - cell "3:4" [ref=e2008]:
+                          - generic [ref=e2012]: 3:4
+                        - cell "1248×1664" [ref=e2013]:
+                          - generic [ref=e2017]: 1248×1664
+                        - cell "1248×1664" [ref=e2018]:
+                          - generic [ref=e2022]: 1248×1664
+                        - cell "1248×1664" [ref=e2023]:
+                          - generic [ref=e2027]: 1248×1664
+                      - row "9:16 1080×1920 1080×1920 1088×1920" [ref=e2028]:
+                        - cell "9:16" [ref=e2029]:
+                          - generic [ref=e2033]: 9:16
+                        - cell "1080×1920" [ref=e2034]:
+                          - generic [ref=e2038]: 1080×1920
+                        - cell "1080×1920" [ref=e2039]:
+                          - generic [ref=e2043]: 1080×1920
+                        - cell "1088×1920" [ref=e2044]:
+                          - generic [ref=e2048]: 1088×1920
+                      - row "21:9 2206×946 2206×946 2176×928" [ref=e2049]:
+                        - cell "21:9" [ref=e2050]:
+                          - generic [ref=e2054]: 21:9
+                        - cell "2206×946" [ref=e2055]:
+                          - generic [ref=e2059]: 2206×946
+                        - cell "2206×946" [ref=e2060]:
+                          - generic [ref=e2064]: 2206×946
+                        - cell "2176×928" [ref=e2065]:
+                          - generic [ref=e2069]: 2176×928
+                      - row "4k 仅 Seedance 2.0 支持 16:9 3840×2160 — —" [ref=e2070]:
+                        - cell "4k 仅 Seedance 2.0 支持" [ref=e2071]:
+                          - generic [ref=e2074]:
+                            - generic [ref=e2075]: 4k
+                            - generic [ref=e2077]: 仅 Seedance 2.0 支持
+                        - cell "16:9" [ref=e2078]:
+                          - generic [ref=e2082]: 16:9
+                        - cell "3840×2160" [ref=e2083]:
+                          - generic [ref=e2087]: 3840×2160
+                        - cell "—" [ref=e2088]:
+                          - generic [ref=e2092]: —
+                        - cell "—" [ref=e2093]:
+                          - generic [ref=e2097]: —
+                      - row "4:3 3326×2494 — —" [ref=e2098]:
+                        - cell "4:3" [ref=e2099]:
+                          - generic [ref=e2103]: 4:3
+                        - cell "3326×2494" [ref=e2104]:
+                          - generic [ref=e2108]: 3326×2494
+                        - cell "—" [ref=e2109]:
+                          - generic [ref=e2113]: —
+                        - cell "—" [ref=e2114]:
+                          - generic [ref=e2118]: —
+                      - row "1:1 2880×2880 — —" [ref=e2119]:
+                        - cell "1:1" [ref=e2120]:
+                          - generic [ref=e2124]: 1:1
+                        - cell "2880×2880" [ref=e2125]:
+                          - generic [ref=e2129]: 2880×2880
+                        - cell "—" [ref=e2130]:
+                          - generic [ref=e2134]: —
+                        - cell "—" [ref=e2135]:
+                          - generic [ref=e2139]: —
+                      - row "3:4 2494×3326 — —" [ref=e2140]:
+                        - cell "3:4" [ref=e2141]:
+                          - generic [ref=e2145]: 3:4
+                        - cell "2494×3326" [ref=e2146]:
+                          - generic [ref=e2150]: 2494×3326
+                        - cell "—" [ref=e2151]:
+                          - generic [ref=e2155]: —
+                        - cell "—" [ref=e2156]:
+                          - generic [ref=e2160]: —
+                      - row "9:16 2160×3840 — —" [ref=e2161]:
+                        - cell "9:16" [ref=e2162]:
+                          - generic [ref=e2166]: 9:16
+                        - cell "2160×3840" [ref=e2167]:
+                          - generic [ref=e2171]: 2160×3840
+                        - cell "—" [ref=e2172]:
+                          - generic [ref=e2176]: —
+                        - cell "—" [ref=e2177]:
+                          - generic [ref=e2181]: —
+                      - row "21:9 4398×1886 — —" [ref=e2182]:
+                        - cell "21:9" [ref=e2183]:
+                          - generic [ref=e2187]: 21:9
+                        - cell "4398×1886" [ref=e2188]:
+                          - generic [ref=e2192]: 4398×1886
+                        - cell "—" [ref=e2193]:
+                          - generic [ref=e2197]: —
+                        - cell "—" [ref=e2198]:
+                          - generic [ref=e2202]: —
+              - generic [ref=e2210]:
+                - text: duration
+                - generic [ref=e2212]: integer
+                - generic [ref=e2214]: 默认值 5
+              - generic [ref=e2216]: duration 和 frames 二选一即可，frames 的优先级高于 duration。如果您希望生成整数秒的视频，建议指定 duration。
+              - generic [ref=e2217]: 生成视频时长，仅支持整数，单位：秒。
+              - list [ref=e2219]:
+                - listitem [ref=e2220]: "• Seedance 1.0 Pro、Seedance 1.0 Pro Fast: [2, 12] s。"
+              - list [ref=e2222]:
+                - listitem [ref=e2223]:
+                  - text: "• Seedance 1.5 Pro: [4,12] 或设置为"
+                  - generic [ref=e2225]: "-1"
+              - list [ref=e2227]:
+                - listitem [ref=e2228]:
+                  - text: "• Seedance 2.0 系列: [4,15] 或设置为"
+                  - generic [ref=e2230]: "-1"
+              - generic [ref=e2231]:
+                - generic [ref=e2232]: 注意
+                - generic [ref=e2233]: Seedance 2.0 系列、Seedance 1.5 Pro 支持两种配置方法
+                - list [ref=e2235]:
+                  - listitem [ref=e2236]: • 指定具体时长：支持有效范围内的任一整数。
+                - list [ref=e2238]:
+                  - listitem [ref=e2239]:
+                    - text: • 智能指定：设置为
+                    - generic [ref=e2241]: "-1"
+                    - text: ，表示由模型在有效范围内自主选择合适的视频长度（整数秒）。实际生成视频的时长可通过
+                    - link "查询视频生成任务 API" [ref=e2244] [cursor=pointer]:
+                      - /url: /docs/82379/1521309?lang=zh
+                      - generic [ref=e2245]: 查询视频生成任务 API
+                    - text: 返回的 duration 字段获取。注意视频时长与计费相关，请谨慎设置。
+              - generic [ref=e2250]:
+                - text: frames
+                - generic [ref=e2252]: integer
+              - generic [ref=e2253]:
+                - generic [ref=e2254]: Seedance 2.0 系列、Seedance 1.5 Pro 暂不支持
+                - generic [ref=e2255]: duration 和 frames 二选一即可，frames 的优先级高于 duration。如果您希望生成小数秒的视频，建议指定 frames。
+              - generic [ref=e2256]: 生成视频的帧数。通过指定帧数，可以灵活控制生成视频的长度，生成小数秒的视频。
+              - generic [ref=e2257]: 由于 frames 的取值限制，仅能支持有限小数秒，您需要根据公式推算最接近的帧数。
+              - list [ref=e2259]:
+                - listitem [ref=e2260]: • 计算公式：帧数 = 时长 × 帧率（24）。
+              - list [ref=e2262]:
+                - listitem [ref=e2263]:
+                  - text: • 取值范围：支持 [29, 289] 区间内所有满足
+                  - generic [ref=e2265]: 25 + 4n
+                  - text: 格式的整数值，其中 n 为正整数。
+              - list [ref=e2267]:
+                - listitem [ref=e2268]: 例如：假设需要生成 2.4 秒的视频，帧数=2.4×24=57.6。由于 frames 不支持 57.6，此时您只能选择一个最接近的值。根据 25+4n 计算出最接近的帧数为 57，实际生成的视频为 57/24=2.375 秒。
+              - generic [ref=e2273]:
+                - text: seed
+                - generic [ref=e2275]: integer
+                - generic [ref=e2277]: 默认值 -1
+              - generic [ref=e2279]: Seedance 2.0 系列暂不支持
+              - generic [ref=e2280]: 种子整数，用于控制生成内容的随机性。
+              - generic [ref=e2281]: 取值范围：[-1, 2^32-1]之间的整数。
+              - generic [ref=e2282]:
+                - generic [ref=e2283]: 注意
+                - list [ref=e2285]:
+                  - listitem [ref=e2286]: • 相同的请求下，模型收到不同的 seed 值，如：不指定 seed 值或令 seed 取值为-1（会使用随机数替代）、或手动变更 seed 值，将生成不同的结果。
+                - list [ref=e2288]:
+                  - listitem [ref=e2289]: • 相同的请求下，模型收到相同的 seed 值，会生成类似的结果，但不保证完全一致。
+              - generic [ref=e2294]:
+                - text: camera_fixed
+                - generic [ref=e2296]: boolean
+                - generic [ref=e2298]: 默认值 false
+              - generic [ref=e2300]: 参考图场景不支持，Seedance 2.0 系列 暂不支持
+              - generic [ref=e2301]: 是否固定摄像头。枚举值：
+              - list [ref=e2303]:
+                - listitem [ref=e2304]: • true：固定摄像头。平台会在用户提示词中追加固定摄像头，实际效果不保证。
+              - list [ref=e2306]:
+                - listitem [ref=e2307]: • false：不固定摄像头。
+              - generic [ref=e2312]:
+                - text: watermark
+                - generic [ref=e2314]: boolean
+                - generic [ref=e2316]: 默认值 false
+              - generic [ref=e2317]: 生成视频是否包含水印。枚举值：
+              - list [ref=e2319]:
+                - listitem [ref=e2320]: • false：生成视频不含水印。
+              - list [ref=e2322]:
+                - listitem [ref=e2323]:
+                  - text: • true：生成视频右下角会展示
+                  - generic [ref=e2325]: AI 生成
+                  - text: 水印。
+              - generic [ref=e2331]: 响应参数
+              - generic [ref=e2333]:
+                - text: 跳转
+                - link "请求参数" [ref=e2336] [cursor=pointer]:
+                  - /url: /docs/82379/1520757?lang=zh#RxN8G2nH
+                  - generic [ref=e2337]: 请求参数
+              - generic [ref=e2338]:
+                - text: id
+                - generic [ref=e2340]: string
+              - generic [ref=e2341]: 视频生成任务 ID 。仅保存 7 天（从 created at 时间戳开始计算），超时后将自动清除。
+              - list [ref=e2343]:
+                - listitem [ref=e2344]:
+                  - text: • 设置
+                  - generic [ref=e2346]: "\"draft\": true"
+                  - text: ，为 Draft 视频任务 ID。
+              - list [ref=e2348]:
+                - listitem [ref=e2349]:
+                  - text: • 设置
+                  - generic [ref=e2351]: "\"draft\": false"
+                  - text: ，为正常视频任务 ID。
+              - list [ref=e2353]:
+                - listitem [ref=e2354]:
+                  - text: 创建视频生成任务为异步接口，获取 ID 后，需要通过
+                  - link "查询视频生成任务 API" [ref=e2357] [cursor=pointer]:
+                    - /url: /docs/82379/1521309?lang=zh
+                    - generic [ref=e2358]: 查询视频生成任务 API
+                  - text: 来查询视频生成任务的状态。任务成功后，会输出生成视频的
+                  - generic [ref=e2360]: video_url
+                  - text: 。
+            - generic [ref=e2366]:
+              - generic [ref=e2368]:
+                - img [ref=e2370]
+                - generic [ref=e2373]:
+                  - tab "seedance 2.0-多模态参考" [selected] [ref=e2374] [cursor=pointer]:
+                    - generic [ref=e2375]: seedance 2.0-多模态参考
+                  - tab "有声视频-首帧" [ref=e2376] [cursor=pointer]:
+                    - generic [ref=e2377]: 有声视频-首帧
+                  - tab "有声视频-首尾帧" [ref=e2378] [cursor=pointer]:
+                    - generic [ref=e2379]: 有声视频-首尾帧
+                  - tab "图生视频-base64编码" [ref=e2380] [cursor=pointer]:
+                    - generic [ref=e2381]: 图生视频-base64编码
+                  - tab "文生视频" [ref=e2382] [cursor=pointer]:
+                    - generic [ref=e2383]: 文生视频
+                - img [ref=e2385] [cursor=pointer]
+              - generic [ref=e2388]:
+                - tabpanel "seedance 2.0-多模态参考" [ref=e2389]:
+                  - generic [ref=e2390]:
+                    - alert [ref=e2391]:
+                      - img [ref=e2393]
+                      - generic [ref=e2396]: 发起调试等同于请求真实调用，可能产生云产品费用，请谨慎操作！
+                    - generic [ref=e2397]:
+                      - generic [ref=e2398]:
+                        - paragraph [ref=e2399]: request
+                        - generic [ref=e2400]:
+                          - combobox [ref=e2401] [cursor=pointer]:
+                            - generic "python" [ref=e2402]:
+                              - generic [ref=e2403]:
+                                - textbox
+                                - generic [ref=e2404]: python
+                              - generic [ref=e2407]:
+                                - img [ref=e2408]
+                                - img [ref=e2410]
+                          - generic [ref=e2412]:
+                            - img [ref=e2413] [cursor=pointer]
+                            - img [ref=e2415] [cursor=pointer]
+                      - code [ref=e2419]:
+                        - text: "import os import time # Install SDK: pip install 'volcengine-python-sdk[ark]' from volcenginesdkarkruntime import Ark client = Ark( # The base URL for model invocation base_url='https://ark.cn-beijing.volces.com/api/v3', # Get API Key：https://console.volcengine.com/ark/region:ark+cn-beijing/apikey api_key=os.environ.get(\"ARK_API_KEY\"), ) if __name__ == \"__main__\": print(\"----- create request -----\") create_result = client.content_generation.tasks.create( model=\"doubao-seedance-2-0-260128\", # Replace with Model ID content=[ { \"type\": \"text\", \"text\": \"全程使用视频1的第一视角构图，全程使用音频1作为背景音乐。第一人称视角果茶宣传广告，seedance牌「苹苹安安」苹果果茶限定款；首帧为图片1，你的手摘下一颗带晨露的阿克苏红苹果，轻脆的苹果碰撞声；2-4 秒：快速切镜，你的手将苹果块投入雪克杯，加入冰块与茶底，用力摇晃，冰块碰撞声与摇晃声卡点轻快鼓点，背景音：「鲜切现摇」；4-6 秒：第一人称成品特写，分层果茶倒入透明杯，你的手轻挤奶盖在顶部铺展，在杯身贴上粉红包标，镜头拉近看奶盖与果茶的分层纹理；6-8 秒：第一人称手持举杯，你将图片2中的果茶举到镜头前（模拟递到观众面前的视角），杯身标签清晰可见，背景音「来一口鲜爽」，尾帧定格为图片2。背景声音统一为女生音色。\", }, { \"type\": \"image_url\", \"image_url\": { \"url\": \"https://ark-project.tos-cn-beijing.volces.com/doc_image/r2v_tea_pic1.jpg\" }, \"role\": \"reference_image\", }, { \"type\": \"image_url\", \"image_url\": { \"url\": \"https://ark-project.tos-cn-beijing.volces.com/doc_image/r2v_tea_pic2.jpg\" }, \"role\": \"reference_image\", }, { \"type\": \"video_url\", \"video_url\": { \"url\": \"https://ark-project.tos-cn-beijing.volces.com/doc_video/r2v_tea_video1.mp4\" }, \"role\": \"reference_video\", }, { \"type\": \"audio_url\", \"audio_url\": { \"url\": \"https://ark-project.tos-cn-beijing.volces.com/doc_audio/r2v_tea_audio1.mp3\" }, \"role\": \"reference_audio\", }, ], generate_audio=True, ratio=\"16:9\", duration=11, watermark=True, ) print(create_result) # Polling query section print(\"----- polling task status -----\") task_id = create_result.id while True: get_result = client.content_generation.tasks.get(task_id=task_id) status = get_result.status if status == \"succeeded\": print(\"----- task succeeded -----\") print(get_result) break elif status == \"failed\": print(\"----- task failed -----\") print("
+                        - generic [ref=e2420]: "f\"Error: {get_result.error}\""
+                        - text: ") break else: print("
+                        - generic [ref=e2421]: "f\"Current status: {status}, Retrying after 30 seconds...\""
+                        - text: ) time.sleep(30)
+                      - button "立即调试" [ref=e2423] [cursor=pointer]:
+                        - generic [ref=e2424]: 立即调试
+                    - generic [ref=e2425]:
+                      - generic [ref=e2426]:
+                        - paragraph [ref=e2427]: response
+                        - img [ref=e2430] [cursor=pointer]
+                      - code [ref=e2434]: "----- create request ----- ContentGenerationTaskID(id='cgt-20260414114820-*****') ----- polling task status ----- Current status: running, Retrying after 30 seconds... Current status: running, Retrying after 30 seconds... Current status: running, Retrying after 30 seconds... ... ----- task succeeded ----- ContentGenerationTask(id='cgt-20260414114820-*****', model='doubao-seedance-2-0-260128', status='succeeded', error=None, content=Content(video_url='https://ark-acg-cn-beijing.tos-cn-beijing.volces.com/doubao-seedance-2-0/02177613894217600000000000000000000ffffac181cef51b2fe.mp4?X-Tos-Algorithm=TOS4-HMAC-SHA256&X-Tos-Credential=AKLTYWJkZTExNjA1ZDUyNDc3YzhjNTM5OGIyNjBhNDcyOTQ%2F20260414%2Fcn-beijing%2Ftos%2Frequest&X-Tos-Date=20260414T035941Z&X-Tos-Expires=86400&X-Tos-Signature=231dc5c2ff34a3a624be2e066ca3b1cc59861b1a2b5e5038f33b9a858b867fb8&X-Tos-SignedHeaders=host', last_frame_url=None, file_url=None), usage=Usage(completion_tokens=411300, total_tokens=411300), subdivisionlevel=None, fileformat=None, frames=None, framespersecond=24, created_at=1776138520, updated_at=1776139219, seed=33608, revised_prompt=None, service_tier='default', execution_expires_after=172800, generate_audio=True, duration=11, ratio='16:9', resolution='720p', draft=False, draft_task_id=None)"
+                - tabpanel [ref=e2435]
+                - tabpanel [ref=e2436]
+                - tabpanel [ref=e2437]
+                - tabpanel [ref=e2438]
+          - generic [ref=e2440]:
+            - generic [ref=e2442]: 最近更新时间：2026.06.23 15:55:04
+            - generic [ref=e2444]:
+              - generic [ref=e2445]: 这个页面对您有帮助吗？
+              - generic [ref=e2448] [cursor=pointer]:
+                - img [ref=e2449]
+                - generic [ref=e2451]: 有用
+              - generic [ref=e2454] [cursor=pointer]:
+                - img [ref=e2455]
+                - generic [ref=e2457]: 无用
+          - generic [ref=e2458]:
+            - link "上一篇： The file object" [ref=e2459] [cursor=pointer]:
+              - /url: /docs/82379/1873424?lang=zh
+              - img [ref=e2460]
+              - generic [ref=e2462]: 上一篇：
+              - generic [ref=e2465]: The file object
+            - link "查询视频生成任务 API 下一篇" [ref=e2466] [cursor=pointer]:
+              - /url: /docs/82379/1521309?lang=zh
+              - generic [ref=e2469]: 查询视频生成任务 API
+              - generic [ref=e2471]: 下一篇
+              - img [ref=e2472]
+  - generic: rangeDom

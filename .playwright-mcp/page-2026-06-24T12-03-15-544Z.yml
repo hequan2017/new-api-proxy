@@ -1,0 +1,290 @@
+- generic [ref=e8]:
+  - generic [ref=e10]:
+    - generic [ref=e11]:
+      - link "豆包 API（火山方舟）" [ref=e12] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e14]: 豆包 API（火山方舟）
+      - button "Toggle theme" [ref=e16] [cursor=pointer]:
+        - img [ref=e17]
+    - generic [ref=e21]:
+      - generic [ref=e25] [cursor=pointer]:
+        - img [ref=e26]:
+          - img [ref=e27]
+        - textbox "搜索" [ref=e29]
+        - generic [ref=e30]: ⌘K
+      - list [ref=e34]:
+        - listitem [ref=e35]:
+          - link "快速入门-调用模型服务" [ref=e36] [cursor=pointer]:
+            - /url: /6106849m0
+            - generic [ref=e37]: 快速入门-调用模型服务
+        - listitem [ref=e38]:
+          - generic "介绍" [ref=e39] [cursor=pointer]:
+            - generic [ref=e40]: 介绍
+            - img [ref=e42]:
+              - img [ref=e43]
+          - list [ref=e45]:
+            - listitem [ref=e46]:
+              - link "签名鉴权方式" [ref=e47] [cursor=pointer]:
+                - /url: /6107417m0
+                - generic [ref=e48]: 签名鉴权方式
+            - listitem [ref=e49]:
+              - link "返回结构" [ref=e50] [cursor=pointer]:
+                - /url: /6107425m0
+                - generic [ref=e51]: 返回结构
+            - listitem [ref=e52]:
+              - link "公共错误码" [ref=e53] [cursor=pointer]:
+                - /url: /6107465m0
+                - generic [ref=e54]: 公共错误码
+            - listitem [ref=e55]:
+              - link "API 列表" [ref=e56] [cursor=pointer]:
+                - /url: /6107498m0
+                - generic [ref=e57]: API 列表
+            - listitem [ref=e58]:
+              - link "地域和访问域名" [ref=e59] [cursor=pointer]:
+                - /url: /6107503m0
+                - generic [ref=e60]: 地域和访问域名
+        - listitem [ref=e61]:
+          - generic "对话(Chat) API" [ref=e62] [cursor=pointer]:
+            - generic [ref=e63]: 对话(Chat) API
+            - img [ref=e65]:
+              - img [ref=e66]
+          - list [ref=e68]:
+            - listitem [ref=e69]:
+              - link "对话(Chat)-文本 API POST" [ref=e70] [cursor=pointer]:
+                - /url: /265892759e0
+                - generic [ref=e71]: 对话(Chat)-文本 API
+                - generic [ref=e74]: POST
+            - listitem [ref=e75]:
+              - link "对话(Chat)-视觉 API POST" [ref=e76] [cursor=pointer]:
+                - /url: /265897481e0
+                - generic [ref=e77]: 对话(Chat)-视觉 API
+                - generic [ref=e80]: POST
+        - listitem [ref=e81]:
+          - generic "视频生成 API" [ref=e82] [cursor=pointer]:
+            - generic [ref=e83]: 视频生成 API
+            - img [ref=e85]:
+              - img [ref=e86]
+          - list [ref=e88]:
+            - listitem [ref=e89]:
+              - link "创建视频生成任务 API POST" [ref=e90] [cursor=pointer]:
+                - /url: /265914813e0
+                - generic [ref=e91]: 创建视频生成任务 API
+                - generic [ref=e94]: POST
+            - listitem [ref=e95]:
+              - link "查询视频生成任务信息 API GET" [ref=e96] [cursor=pointer]:
+                - /url: /265919615e0
+                - generic [ref=e97]: 查询视频生成任务信息 API
+                - generic [ref=e100]: GET
+            - listitem [ref=e101]:
+              - link "查询内容生成任务列表 API GET" [ref=e102] [cursor=pointer]:
+                - /url: /265934148e0
+                - generic [ref=e103]: 查询内容生成任务列表 API
+                - generic [ref=e106]: GET
+            - listitem [ref=e107]:
+              - link "取消或删除内容生成任务 DELETE" [ref=e108] [cursor=pointer]:
+                - /url: /265939476e0
+                - generic [ref=e109]: 取消或删除内容生成任务
+                - generic [ref=e112]: DELETE
+        - listitem [ref=e113]:
+          - generic "向量化 API" [ref=e114] [cursor=pointer]:
+            - generic [ref=e115]: 向量化 API
+            - img [ref=e117]:
+              - img [ref=e118]
+          - list [ref=e120]:
+            - listitem [ref=e121]:
+              - link "文本向量化 API POST" [ref=e122] [cursor=pointer]:
+                - /url: /265901295e0
+                - generic [ref=e123]: 文本向量化 API
+                - generic [ref=e126]: POST
+            - listitem [ref=e127]:
+              - link "未命名接口 POST" [ref=e128] [cursor=pointer]:
+                - /url: /265905075e0
+                - generic [ref=e129]: 未命名接口
+                - generic [ref=e132]: POST
+  - generic [ref=e140]:
+    - generic [ref=e141]:
+      - navigation [ref=e142]:
+        - list [ref=e143]:
+          - listitem [ref=e144]:
+            - generic [ref=e145]: 视频生成 API
+      - generic [ref=e146]:
+        - button "MCP" [ref=e147] [cursor=pointer]:
+          - img [ref=e149]
+          - generic [ref=e152]: MCP
+        - generic [ref=e153]:
+          - button "复制页面" [ref=e154] [cursor=pointer]:
+            - generic [ref=e155]:
+              - img [ref=e156]:
+                - img [ref=e157]
+              - text: 复制页面
+          - button [ref=e160] [cursor=pointer]:
+            - img [ref=e161]:
+              - img [ref=e162]
+    - heading "创建视频生成任务 API" [level=1] [ref=e166]
+    - generic [ref=e168]:
+      - generic [ref=e171]: POST
+      - generic [ref=e173]:
+        - img [ref=e175] [cursor=pointer]
+        - generic [ref=e178]: https://ark.cn-beijing.volces.com/api/v3/contents/generations/tasks
+      - button "调试" [ref=e180] [cursor=pointer]:
+        - img [ref=e181]:
+          - img [ref=e182]
+        - generic [ref=e184]: 调试
+    - button "Run in Apifox" [ref=e185] [cursor=pointer]:
+      - img [ref=e186]:
+        - img [ref=e187]
+      - generic [ref=e189]: Run in Apifox
+    - generic [ref=e193]: 本文介绍 Doubao 视频生成大模型 API 的输入输出参数，方便您通过接口，向大模型发起视频生成的请求。模型会依据传入的图片及文本信息生成视频，待生成完成后，您可以按条件查询任务并获取生成的视频。
+    - generic [ref=e194]:
+      - heading "请求参数" [level=2] [ref=e195]
+      - generic [ref=e198]:
+        - button "Authorization" [expanded] [ref=e199] [cursor=pointer]:
+          - img [ref=e201]:
+            - img [ref=e202]
+          - generic [ref=e205]: Authorization
+        - generic [ref=e210]:
+          - generic [ref=e212]: Bearer Token
+          - generic [ref=e213]:
+            - generic [ref=e215]:
+              - text: 在 Header 添加参数
+              - generic [ref=e216]: Authorization
+              - text: ，其值为在 Bearer 之后拼接 Token
+            - generic [ref=e217]:
+              - generic [ref=e218]: 示例：
+              - code [ref=e221]: "Authorization: Bearer ********************"
+      - generic [ref=e223]:
+        - generic [ref=e225]:
+          - generic [ref=e226]: Header 参数
+          - button "生成代码" [ref=e228] [cursor=pointer]:
+            - img [ref=e229]:
+              - img [ref=e230]
+            - generic [ref=e232]: 生成代码
+        - generic [ref=e236]:
+          - heading [level=3] [ref=e237]
+          - list [ref=e238]:
+            - listitem [ref=e239]
+            - listitem [ref=e240]
+            - listitem [ref=e241]
+      - generic [ref=e242]:
+        - generic [ref=e244]:
+          - generic [ref=e246]:
+            - generic [ref=e247]: Body 参数
+            - generic [ref=e248]: application/json
+          - button "生成代码" [ref=e250] [cursor=pointer]:
+            - img [ref=e251]:
+              - img [ref=e252]
+            - generic [ref=e254]: 生成代码
+        - generic [ref=e257]:
+          - generic [ref=e262]:
+            - heading [level=3] [ref=e263]
+            - list [ref=e264]:
+              - listitem [ref=e265]
+              - listitem [ref=e266]
+              - listitem [ref=e267]
+          - generic [ref=e270] [cursor=pointer]:
+            - generic [ref=e271]: 示例
+            - img [ref=e272]:
+              - img [ref=e273]
+    - generic [ref=e276]:
+      - heading "返回响应" [level=2] [ref=e277]
+      - tablist [ref=e278]:
+        - generic [ref=e279]:
+          - tab "right 🟢200 成功" [expanded] [ref=e280] [cursor=pointer]:
+            - img "right" [ref=e281]:
+              - img [ref=e282]
+            - generic [ref=e285]:
+              - generic [ref=e286]: 🟢200
+              - generic [ref=e287]: 成功
+          - tabpanel [ref=e288]:
+            - generic [ref=e292]:
+              - generic [ref=e294]:
+                - generic [ref=e297]: application/json
+                - button "生成代码" [ref=e298] [cursor=pointer]:
+                  - img [ref=e299]:
+                    - img [ref=e300]
+                  - generic [ref=e302]: 生成代码
+              - generic [ref=e307]:
+                - heading [level=3] [ref=e308]
+                - list [ref=e309]:
+                  - listitem [ref=e310]
+                  - listitem [ref=e311]
+                  - listitem [ref=e312]
+    - generic [ref=e313]:
+      - generic [ref=e315]:
+        - generic [ref=e316]:
+          - generic [ref=e318]: 请求示例
+          - generic [ref=e319]:
+            - generic [ref=e320]:
+              - tablist [ref=e321]:
+                - generic [ref=e323]:
+                  - tab "Shell" [selected] [ref=e325] [cursor=pointer]
+                  - tab "JavaScript" [ref=e327] [cursor=pointer]
+                  - tab "Java" [ref=e329] [cursor=pointer]
+                  - tab "Swift" [ref=e331] [cursor=pointer]
+              - generic:
+                - generic:
+                  - tabpanel
+            - img [ref=e333]:
+              - img [ref=e334]
+        - generic [ref=e340]:
+          - generic [ref=e341] [cursor=pointer]:
+            - generic [ref=e342]:
+              - radio "cURL" [checked]
+            - text: cURL
+          - generic [ref=e343] [cursor=pointer]:
+            - generic [ref=e344]:
+              - radio "cURL-Windows"
+            - text: cURL-Windows
+          - generic [ref=e345] [cursor=pointer]:
+            - generic [ref=e346]:
+              - radio "Httpie"
+            - text: Httpie
+          - generic [ref=e347] [cursor=pointer]:
+            - generic [ref=e348]:
+              - radio "wget"
+            - text: wget
+          - generic [ref=e349] [cursor=pointer]:
+            - generic [ref=e350]:
+              - radio "PowerShell"
+            - text: PowerShell
+        - code [ref=e353]: "curl --location 'https://ark.cn-beijing.volces.com/api/v3/contents/generations/tasks' \\ --header 'Authorization: Bearer <token>' \\ --header 'Content-Type: application/json' \\ --data '{ \"model\": \"<YOUR_MODEL_EP>\", \"content\": [ { \"type\": \"text\", \"text\": \"戴着帽子的老爷爷面带微笑往前走 --ratio 1:1 --fps 24 --dur 5\" } ] }'"
+      - generic [ref=e354]:
+        - generic [ref=e359]: 响应示例
+        - code [ref=e362]: "{ \"id\": \"cgt-2024****-**\", }"
+    - generic [ref=e363]:
+      - generic [ref=e364]: 修改于
+      - text: 2025-09-02 13:07:57
+    - generic [ref=e365]:
+      - link "上一页 对话(Chat)-视觉 API" [ref=e366] [cursor=pointer]:
+        - /url: /265897481e0
+        - img [ref=e367]:
+          - img [ref=e368]
+        - generic [ref=e370]:
+          - generic [ref=e371]: 上一页
+          - generic [ref=e372]: 对话(Chat)-视觉 API
+      - link "下一页 查询视频生成任务信息 API" [ref=e373] [cursor=pointer]:
+        - /url: /265919615e0
+        - generic [ref=e374]:
+          - generic [ref=e375]: 下一页
+          - generic [ref=e376]: 查询视频生成任务信息 API
+        - img [ref=e377]:
+          - img [ref=e378]
+    - contentinfo [ref=e381]:
+      - generic [ref=e382]:
+        - link "LLMs.txt" [ref=e383] [cursor=pointer]:
+          - /url: /llms.txt
+          - button "LLMs.txt" [ref=e384]:
+            - generic [ref=e385]: LLMs.txt
+        - button "克隆" [ref=e386] [cursor=pointer]:
+          - img [ref=e387]:
+            - img [ref=e388]
+          - generic [ref=e392]: 克隆
+        - button "导出" [ref=e393] [cursor=pointer]:
+          - img [ref=e394]:
+            - img [ref=e395]
+          - generic [ref=e398]: 导出
+      - link "homepage link" [ref=e401] [cursor=pointer]:
+        - /url: https://apifox.com
+        - generic [ref=e402]:
+          - generic [ref=e403]: Built with
+          - img [ref=e404]

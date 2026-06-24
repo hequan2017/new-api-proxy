@@ -1,0 +1,19 @@
+# 构建上下文排除：减小镜像构建体积、避免泄露密钥
+.git
+.github
+.idea
+.vscode
+docs
+*.md
+!README.md
+
+# 本地配置（含密钥）
+config.yaml
+.env
+
+# 构建产物与缓存
+bin
+dist
+*.test
+*.out
+.DS_Store

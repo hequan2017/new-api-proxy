@@ -1,0 +1,49 @@
+[    5512ms] [LOG] - init tea async @ https://res.volccdn.com/obj/volc-console-fe/volc/web-data-sdk/1.0.0.46/cnSdk/initTeaSdk.js:12
+[    5540ms] [ERROR] can no read vconsoleAppInfo from window object @ https://res.volccdn.com/obj/volc-console-fe/vconsole-vendors/volc-information.9d1c72b5.js:12
+[    5541ms] [ERROR] can no read vconsoleAppInfo from window object @ https://res.volccdn.com/obj/volc-console-fe/vconsole-vendors/volc-information.9d1c72b5.js:12
+[    5647ms] [ERROR] can no read vconsoleAppInfo from window object @ https://portal.volccdn.com/obj/volcfe-scm/doccenter/static/js/async/docs/(libid)/(docid$)/page.18a67f88.js:1
+[    5652ms] [INFO] [MonitorTracer] init successfully! version: 0.21.0 @ https://res.volccdn.com/obj/volc-console-fe/volc/web-data-sdk/1.0.0.46/cnSdk/initTeaSdk.js:6
+[    7373ms] [LOG] {} affixProps @ https://portal.volccdn.com/obj/volcfe-scm/doccenter/static/js/async/docs/(libid)/(docid$)/page.18a67f88.js:1
+[    7420ms] [LOG] {} affixProps @ https://portal.volccdn.com/obj/volcfe-scm/doccenter/static/js/async/docs/(libid)/(docid$)/page.18a67f88.js:1
+[    7425ms] [WARNING] The web fetch in browser environment has not psm field @ https://portal.volccdn.com/obj/volcfe-scm/doccenter/static/js/561.46412930.js:1
+[    7425ms] [WARNING] The web fetch in browser environment has not psm field @ https://portal.volccdn.com/obj/volcfe-scm/doccenter/static/js/561.46412930.js:1
+[    7426ms] [WARNING] The web fetch in browser environment has not psm field @ https://portal.volccdn.com/obj/volcfe-scm/doccenter/static/js/561.46412930.js:1
+[    7436ms] [WARNING] Starling_intl: [WARNING] Plugin: undefined has beeninit installed. @ https://portal.volccdn.com/obj/volcfe-scm/doccenter/static/js/561.46412930.js:1
+[    7633ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://console.volcengine.com/api/passport/account/getUser:0
+[    7830ms] [LOG] ========= undefined @ https://portal.volccdn.com/obj/volcfe-scm/doccenter/static/js/main.bec38cb7.js:0
+[    7853ms] [LOG] {} affixProps @ https://portal.volccdn.com/obj/volcfe-scm/doccenter/static/js/async/docs/(libid)/(docid$)/page.18a67f88.js:1
+[    7879ms] [LOG] {} affixProps @ https://portal.volccdn.com/obj/volcfe-scm/doccenter/static/js/async/docs/(libid)/(docid$)/page.18a67f88.js:1
+[    7879ms] [WARNING] The web fetch in browser environment has not psm field @ https://portal.volccdn.com/obj/volcfe-scm/doccenter/static/js/561.46412930.js:1
+[    8022ms] [LOG] {} affixProps @ https://portal.volccdn.com/obj/volcfe-scm/doccenter/static/js/async/docs/(libid)/(docid$)/page.18a67f88.js:1
+[    8172ms] [LOG] {} affixProps @ https://portal.volccdn.com/obj/volcfe-scm/doccenter/static/js/async/docs/(libid)/(docid$)/page.18a67f88.js:1
+[    8180ms] [LOG] {} affixProps @ https://portal.volccdn.com/obj/volcfe-scm/doccenter/static/js/async/docs/(libid)/(docid$)/page.18a67f88.js:1
+[    8218ms] [WARNING] The web fetch in browser environment has not psm field @ https://portal.volccdn.com/obj/volcfe-scm/doccenter/static/js/561.46412930.js:1
+[    8327ms] [LOG] {} affixProps @ https://portal.volccdn.com/obj/volcfe-scm/doccenter/static/js/async/docs/(libid)/(docid$)/page.18a67f88.js:1
+[    8367ms] [ERROR] can no read vconsoleAppInfo from window object @ https://res.volccdn.com/obj/volc-console-fe/vcopilot-entry/web/static/js/8199.b73ea5f4.js:1
+[    8583ms] [ERROR] can no read vconsoleAppInfo from window object @ https://res.volccdn.com/obj/volc-console-fe/vcopilot-entry/web/static/js/async/7585.fb588188.js:109
+[    8748ms] [ERROR] `volcfContext` not found, please use `waitForVolcf` to wait for volcf to be loaded. @ https://res.volccdn.com/obj/volc-console-fe/vcopilot-entry/web/static/js/8199.b73ea5f4.js:1
+[    8748ms] [ERROR] `volcfContext` not found, please use `waitForVolcf` to wait for volcf to be loaded. @ https://res.volccdn.com/obj/volc-console-fe/vcopilot-entry/web/static/js/8199.b73ea5f4.js:1
+[    8770ms] [WARNING] Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://signin.volcengine.com') does not match the recipient window's origin ('https://www.volcengine.com'). @ https://res.volccdn.com/obj/volc-console-fe/vcopilot-entry/web/static/js/async/7585.fb588188.js:109
+[    8784ms] [INFO] [ErrorRecommend][WebRuntimeGate] Resolved page error recommend gate {gate: Object, errorRecommendWhiteList: Array(0)} @ https://res.volccdn.com/obj/volc-console-fe/vcopilot-entry/web/static/js/async/1433.57735e06.js:47
+[    8784ms] [INFO] [ErrorRecommend][Coordinator] Updating coordinator enabled state {href: https://www.volcengine.com/docs/82379/1099455?lang=zh, isTopWindow: true, payload: Object} @ https://res.volccdn.com/obj/volc-console-fe/vcopilot-entry/web/static/js/async/1433.57735e06.js:47
+[    8785ms] [INFO] [ErrorRecommend][Coordinator] Updating coordinator enabled state {href: https://www.volcengine.com/docs/82379/1099455?lang=zh, isTopWindow: true, payload: Object} @ https://res.volccdn.com/obj/volc-console-fe/vcopilot-entry/web/static/js/async/1433.57735e06.js:47
+[    8785ms] [INFO] [ErrorRecommend][Coordinator] Initializing page error recommend coordinator {href: https://www.volcengine.com/docs/82379/1099455?lang=zh, isTopWindow: true} @ https://res.volccdn.com/obj/volc-console-fe/vcopilot-entry/web/static/js/async/1433.57735e06.js:47
+[    8787ms] [INFO] [ErrorRecommend][Coordinator] Disposing page error recommend coordinator {href: https://www.volcengine.com/docs/82379/1099455?lang=zh, isTopWindow: true} @ https://res.volccdn.com/obj/volc-console-fe/vcopilot-entry/web/static/js/async/1433.57735e06.js:47
+[    8787ms] [INFO] [ErrorRecommend][Coordinator] Clearing current coordinator state {href: https://www.volcengine.com/docs/82379/1099455?lang=zh, isTopWindow: true, payload: Object} @ https://res.volccdn.com/obj/volc-console-fe/vcopilot-entry/web/static/js/async/1433.57735e06.js:47
+[    8787ms] [INFO] [ErrorRecommend][WebRuntimeGate] Resolved page error recommend gate {gate: Object, errorRecommendWhiteList: Array(0)} @ https://res.volccdn.com/obj/volc-console-fe/vcopilot-entry/web/static/js/async/1433.57735e06.js:47
+[    8787ms] [INFO] [ErrorRecommend][Coordinator] Updating coordinator enabled state {href: https://www.volcengine.com/docs/82379/1099455?lang=zh, isTopWindow: true, payload: Object} @ https://res.volccdn.com/obj/volc-console-fe/vcopilot-entry/web/static/js/async/1433.57735e06.js:47
+[    8788ms] [WARNING] CommonJSONRPCProtocol: method vcopilot/set-ui-config already has request handler, override. @ https://res.volccdn.com/obj/volc-console-fe/vcopilot-entry/web/static/js/async/1433.57735e06.js:2
+[    8788ms] [WARNING] CommonJSONRPCProtocol: method vcopilot/get-display-state already has request handler, override. @ https://res.volccdn.com/obj/volc-console-fe/vcopilot-entry/web/static/js/async/1433.57735e06.js:2
+[    8788ms] [WARNING] CommonJSONRPCProtocol: method vcopilot/iframe/proxy-jsonrpc-notification already has notification handler, override. @ https://res.volccdn.com/obj/volc-console-fe/vcopilot-entry/web/static/js/async/1433.57735e06.js:2
+[    8788ms] [INFO] [ErrorRecommend][Coordinator] Updating coordinator enabled state {href: https://www.volcengine.com/docs/82379/1099455?lang=zh, isTopWindow: true, payload: Object} @ https://res.volccdn.com/obj/volc-console-fe/vcopilot-entry/web/static/js/async/1433.57735e06.js:47
+[    8788ms] [INFO] [ErrorRecommend][Coordinator] Initializing page error recommend coordinator {href: https://www.volcengine.com/docs/82379/1099455?lang=zh, isTopWindow: true} @ https://res.volccdn.com/obj/volc-console-fe/vcopilot-entry/web/static/js/async/1433.57735e06.js:47
+[    8792ms] [LOG] {} affixProps @ https://portal.volccdn.com/obj/volcfe-scm/doccenter/static/js/async/docs/(libid)/(docid$)/page.18a67f88.js:1
+[    8860ms] [WARNING] Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://signin.volcengine.com') does not match the recipient window's origin ('https://www.volcengine.com'). @ https://res.volccdn.com/obj/volc-console-fe/vcopilot-entry/web/static/js/async/7585.fb588188.js:109
+[    9062ms] [WARNING] Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://signin.volcengine.com') does not match the recipient window's origin ('https://www.volcengine.com'). @ https://res.volccdn.com/obj/volc-console-fe/vcopilot-entry/web/static/js/async/7585.fb588188.js:109
+[    9179ms] [INFO] [ErrorRecommend][WebRuntimeGate] Resolved page error recommend gate {gate: Object, errorRecommendWhiteList: Array(2)} @ https://res.volccdn.com/obj/volc-console-fe/vcopilot-entry/web/static/js/async/1433.57735e06.js:47
+[    9179ms] [INFO] [ErrorRecommend][Coordinator] Updating coordinator enabled state {href: https://www.volcengine.com/docs/82379/1099455?lang=zh, isTopWindow: true, payload: Object} @ https://res.volccdn.com/obj/volc-console-fe/vcopilot-entry/web/static/js/async/1433.57735e06.js:47
+[    9248ms] [TIMEEND] vcopilot-FastSigninInit: 490.014892578125 ms @ https://res.volccdn.com/obj/volc-console-fe/vcopilot-entry/web/static/js/async/1433.57735e06.js:36
+[    9406ms] [INFO] [ErrorRecommend][WebRuntimeGate] Resolved page error recommend gate {gate: Object, errorRecommendWhiteList: Array(2)} @ https://res.volccdn.com/obj/volc-console-fe/vcopilot-entry/web/static/js/async/1433.57735e06.js:47
+[    9407ms] [INFO] [ErrorRecommend][Coordinator] Updating coordinator enabled state {href: https://www.volcengine.com/docs/82379/1099455?lang=zh, isTopWindow: true, payload: Object} @ https://res.volccdn.com/obj/volc-console-fe/vcopilot-entry/web/static/js/async/1433.57735e06.js:47
+[  200249ms] [LOG] {} affixProps @ https://portal.volccdn.com/obj/volcfe-scm/doccenter/static/js/async/docs/(libid)/(docid$)/page.18a67f88.js:1
+[  202805ms] [LOG] {} affixProps @ https://portal.volccdn.com/obj/volcfe-scm/doccenter/static/js/async/docs/(libid)/(docid$)/page.18a67f88.js:1

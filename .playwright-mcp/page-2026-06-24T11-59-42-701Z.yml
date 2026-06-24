@@ -1,0 +1,261 @@
+- generic [ref=e4]:
+  - generic [ref=e12]:
+    - generic [ref=e13]:
+      - link [ref=e14] [cursor=pointer]:
+        - /url: //www.volcengine.com
+      - generic [ref=e16] [cursor=pointer]: 文档中心
+    - img [ref=e21] [cursor=pointer]
+    - generic [ref=e26]:
+      - combobox [ref=e28] [cursor=pointer]:
+        - generic "简体" [ref=e29]:
+          - img [ref=e31]
+          - generic [ref=e34]:
+            - textbox:
+              - /placeholder: Select language
+            - generic [ref=e35]: 简体
+          - img [ref=e38]
+      - link "文档" [ref=e40] [cursor=pointer]:
+        - /url: https://www.volcengine.com/docs
+      - link "控制台" [ref=e41] [cursor=pointer]:
+        - /url: https://console.volcengine.com
+      - generic [ref=e43]:
+        - link "登录" [ref=e44] [cursor=pointer]:
+          - /url: //console.volcengine.com/auth/login?redirectURI=%2F%2Fwww.volcengine.com%2Fdocs%2F82379%2F1520758%3Flang%3Dzh
+        - link "免费开始使用" [ref=e45] [cursor=pointer]:
+          - /url: //console.volcengine.com/auth/signup?redirectURI=%2F%2Fwww.volcengine.com%2Fdocs%2F82379%2F1520758%3Flang%3Dzh
+  - generic [ref=e48]:
+    - generic [ref=e52]:
+      - generic [ref=e53]:
+        - button "open" [ref=e54] [cursor=pointer]:
+          - img "open" [ref=e55]
+        - generic [ref=e56] [cursor=pointer]: 火山方舟
+      - generic [ref=e58]:
+        - generic [ref=e59] [cursor=pointer]: 文档指南
+        - generic [ref=e60] [cursor=pointer]: 订阅 [Agent/Coding Plan]
+        - generic [ref=e61] [cursor=pointer]: API参考
+        - generic [ref=e62] [cursor=pointer]: 资源
+    - generic [ref=e63]:
+      - generic [ref=e66]:
+        - generic [ref=e68] [cursor=pointer]:
+          - img [ref=e69]
+          - generic [ref=e71]: 请输入
+        - menu [ref=e74]:
+          - generic [ref=e75]:
+            - generic [ref=e76]:
+              - generic [ref=e77]: 准备工作
+              - menuitem "获取 API Key 并配置" [ref=e78] [cursor=pointer]:
+                - link "获取 API Key 并配置" [ref=e79]:
+                  - /url: /docs/82379/1541594?lang=zh
+                  - generic [ref=e81]: 获取 API Key 并配置
+              - menuitem "安装及升级 SDK" [ref=e82] [cursor=pointer]:
+                - link "安装及升级 SDK" [ref=e83]:
+                  - /url: /docs/82379/1541595?lang=zh
+                  - generic [ref=e85]: 安装及升级 SDK
+              - menuitem "Base URL及鉴权" [ref=e86] [cursor=pointer]:
+                - link "Base URL及鉴权" [ref=e87]:
+                  - /url: /docs/82379/1298459?lang=zh
+                  - generic [ref=e89]: Base URL及鉴权
+            - generic [ref=e90]:
+              - generic [ref=e91]: 对话(Chat) API
+              - menuitem "对话(Chat) API" [ref=e92] [cursor=pointer]:
+                - link "对话(Chat) API" [ref=e93]:
+                  - /url: /docs/82379/1494384?lang=zh
+                  - generic [ref=e95]: 对话(Chat) API
+            - generic [ref=e96]:
+              - generic [ref=e97]: Responses API
+              - menuitem "创建模型响应" [ref=e98] [cursor=pointer]:
+                - link "创建模型响应" [ref=e99]:
+                  - /url: /docs/82379/1569618?lang=zh
+                  - generic [ref=e101]: 创建模型响应
+              - menuitem "查询模型响应" [ref=e102] [cursor=pointer]:
+                - link "查询模型响应" [ref=e103]:
+                  - /url: /docs/82379/1783709?lang=zh
+                  - generic [ref=e105]: 查询模型响应
+              - menuitem "获取响应上下文" [ref=e106] [cursor=pointer]:
+                - link "获取响应上下文" [ref=e107]:
+                  - /url: /docs/82379/1783719?lang=zh
+                  - generic [ref=e109]: 获取响应上下文
+              - menuitem "删除模型响应" [ref=e110] [cursor=pointer]:
+                - link "删除模型响应" [ref=e111]:
+                  - /url: /docs/82379/1584286?lang=zh
+                  - generic [ref=e113]: 删除模型响应
+              - menuitem "The response object" [ref=e114] [cursor=pointer]:
+                - link "The response object" [ref=e115]:
+                  - /url: /docs/82379/1783703?lang=zh
+                  - generic [ref=e117]: The response object
+              - menuitem "流式响应" [ref=e118] [cursor=pointer]:
+                - link "流式响应" [ref=e119]:
+                  - /url: /docs/82379/1599499?lang=zh
+                  - generic [ref=e121]: 流式响应
+            - generic [ref=e122]:
+              - generic [ref=e123]: Files API
+              - menuitem "上传文件" [ref=e124] [cursor=pointer]:
+                - link "上传文件" [ref=e125]:
+                  - /url: /docs/82379/1870405?lang=zh
+                  - generic [ref=e127]: 上传文件
+              - menuitem "检索文件" [ref=e128] [cursor=pointer]:
+                - link "检索文件" [ref=e129]:
+                  - /url: /docs/82379/1870406?lang=zh
+                  - generic [ref=e131]: 检索文件
+              - menuitem "查询文件列表" [ref=e132] [cursor=pointer]:
+                - link "查询文件列表" [ref=e133]:
+                  - /url: /docs/82379/1870407?lang=zh
+                  - generic [ref=e135]: 查询文件列表
+              - menuitem "删除文件" [ref=e136] [cursor=pointer]:
+                - link "删除文件" [ref=e137]:
+                  - /url: /docs/82379/1870408?lang=zh
+                  - generic [ref=e139]: 删除文件
+              - menuitem "The file object" [ref=e140] [cursor=pointer]:
+                - link "The file object" [ref=e141]:
+                  - /url: /docs/82379/1873424?lang=zh
+                  - generic [ref=e143]: The file object
+            - generic [ref=e144]:
+              - generic [ref=e145]: 视频生成 API
+              - menuitem "创建视频生成任务 API" [ref=e146] [cursor=pointer]:
+                - link "创建视频生成任务 API" [ref=e147]:
+                  - /url: /docs/82379/1520757?lang=zh
+                  - generic [ref=e149]: 创建视频生成任务 API
+              - menuitem "查询视频生成任务 API" [ref=e150] [cursor=pointer]:
+                - link "查询视频生成任务 API" [ref=e151]:
+                  - /url: /docs/82379/1521309?lang=zh
+                  - generic [ref=e153]: 查询视频生成任务 API
+              - menuitem "查询视频生成任务列表" [ref=e154] [cursor=pointer]:
+                - link "查询视频生成任务列表" [ref=e155]:
+                  - /url: /docs/82379/1521675?lang=zh
+                  - generic [ref=e157]: 查询视频生成任务列表
+              - menuitem "取消或删除视频生成任务" [ref=e158] [cursor=pointer]:
+                - link "取消或删除视频生成任务" [ref=e159]:
+                  - /url: /docs/82379/1521720?lang=zh
+                  - generic [ref=e161]: 取消或删除视频生成任务
+            - generic [ref=e162]:
+              - generic [ref=e163]: 图片生成 API
+              - menuitem "图片生成 API" [ref=e164] [cursor=pointer]:
+                - link "图片生成 API" [ref=e165]:
+                  - /url: /docs/82379/1541523?lang=zh
+                  - generic [ref=e167]: 图片生成 API
+              - menuitem "流式响应" [ref=e168] [cursor=pointer]:
+                - link "流式响应" [ref=e169]:
+                  - /url: /docs/82379/1824137?lang=zh
+                  - generic [ref=e171]: 流式响应
+            - generic [ref=e172]:
+              - generic [ref=e173]: 3D生成 API
+              - generic [ref=e175] [cursor=pointer]:
+                - generic [ref=e178]: Seed3D API
+                - img [ref=e180]
+              - generic [ref=e183] [cursor=pointer]:
+                - generic [ref=e186]: 影眸 API
+                - img [ref=e188]
+              - generic [ref=e191] [cursor=pointer]:
+                - generic [ref=e194]: 数美 API
+                - img [ref=e196]
+            - generic [ref=e198]:
+              - generic [ref=e199]: 向量化 API
+              - menuitem "向量化 API" [ref=e200] [cursor=pointer]:
+                - link "向量化 API" [ref=e201]:
+                  - /url: /docs/82379/1523520?lang=zh
+                  - generic [ref=e203]: 向量化 API
+            - generic [ref=e204]:
+              - generic [ref=e205]: 上下文缓存 API
+              - menuitem "创建上下文缓存 API" [ref=e206] [cursor=pointer]:
+                - link "创建上下文缓存 API" [ref=e207]:
+                  - /url: /docs/82379/1528789?lang=zh
+                  - generic [ref=e209]: 创建上下文缓存 API
+              - menuitem "上下文缓存对话 API" [ref=e210] [cursor=pointer]:
+                - link "上下文缓存对话 API" [ref=e211]:
+                  - /url: /docs/82379/1529329?lang=zh
+                  - generic [ref=e213]: 上下文缓存对话 API
+            - generic [ref=e214]:
+              - generic [ref=e215]: 应用(Bot) API
+              - menuitem "应用(bot) API" [ref=e216] [cursor=pointer]:
+                - link "应用(bot) API" [ref=e217]:
+                  - /url: /docs/82379/1526787?lang=zh
+                  - generic [ref=e219]: 应用(bot) API
+              - menuitem "联网插件 数据结构" [ref=e220] [cursor=pointer]:
+                - link "联网插件 数据结构" [ref=e221]:
+                  - /url: /docs/82379/1285209?lang=zh
+                  - generic [ref=e223]: 联网插件 数据结构
+              - menuitem "知识库插件 数据结构" [ref=e224] [cursor=pointer]:
+                - link "知识库插件 数据结构" [ref=e225]:
+                  - /url: /docs/82379/1285210?lang=zh
+                  - generic [ref=e227]: 知识库插件 数据结构
+            - generic [ref=e228]:
+              - generic [ref=e229]: 批量推理 API
+              - generic [ref=e231] [cursor=pointer]:
+                - generic [ref=e234]: 批量(Job) API
+                - img [ref=e236]
+              - menuitem "批量(Chat) API" [ref=e238] [cursor=pointer]:
+                - link "批量(Chat) API" [ref=e239]:
+                  - /url: /docs/82379/1528783?lang=zh
+                  - generic [ref=e241]: 批量(Chat) API
+            - generic [ref=e242]:
+              - generic [ref=e243]: 分词 API
+              - menuitem "分词 API" [ref=e244] [cursor=pointer]:
+                - link "分词 API" [ref=e245]:
+                  - /url: /docs/82379/1528728?lang=zh
+                  - generic [ref=e247]: 分词 API
+            - generic [ref=e248]:
+              - generic [ref=e249]: 管控面 API
+              - generic [ref=e251] [cursor=pointer]:
+                - generic [ref=e254]: 管理推理接入点（Endpoint）
+                - img [ref=e256]
+              - generic [ref=e259] [cursor=pointer]:
+                - generic [ref=e262]: 管理API Key
+                - img [ref=e264]
+              - generic [ref=e267] [cursor=pointer]:
+                - generic [ref=e270]: 管理模型调优任务
+                - img [ref=e272]
+              - generic [ref=e275] [cursor=pointer]:
+                - generic [ref=e278]: 管理定制模型
+                - img [ref=e280]
+              - generic [ref=e283] [cursor=pointer]:
+                - generic [ref=e286]: 管理基础模型
+                - img [ref=e288]
+              - generic [ref=e291] [cursor=pointer]:
+                - generic [ref=e294]: 管理模型评测任务
+                - img [ref=e296]
+              - generic [ref=e299] [cursor=pointer]:
+                - generic [ref=e302]: 安全审计
+                - img [ref=e304]
+              - generic [ref=e307] [cursor=pointer]:
+                - generic [ref=e310]: Agent Plan / Coding Plan API
+                - img [ref=e312]
+              - generic [ref=e315] [cursor=pointer]:
+                - generic [ref=e318]: 查询用量
+                - img [ref=e320]
+              - generic [ref=e323] [cursor=pointer]:
+                - generic [ref=e326]: 效果上报
+                - img [ref=e328]
+            - generic [ref=e330]:
+              - generic [ref=e331]: 其他说明
+              - menuitem "兼容 OpenAI SDK" [ref=e332] [cursor=pointer]:
+                - link "兼容 OpenAI SDK" [ref=e333]:
+                  - /url: /docs/82379/1330626?lang=zh
+                  - generic [ref=e335]: 兼容 OpenAI SDK
+              - menuitem "错误码" [ref=e336] [cursor=pointer]:
+                - link "错误码" [ref=e337]:
+                  - /url: /docs/82379/1299023?lang=zh
+                  - generic [ref=e339]: 错误码
+              - menuitem "SDK 常见使用示例" [ref=e340] [cursor=pointer]:
+                - link "SDK 常见使用示例" [ref=e341]:
+                  - /url: /docs/82379/1544136?lang=zh
+                  - generic [ref=e343]: SDK 常见使用示例
+      - generic [ref=e346]:
+        - list [ref=e348]:
+          - listitem [ref=e349] [cursor=pointer]: 文档首页
+          - generic [ref=e351] [cursor=pointer]: 火山方舟
+          - generic [ref=e353] [cursor=pointer]: 视频生成 API
+        - generic [ref=e354]:
+          - generic [ref=e355]: 视频生成 API
+          - list [ref=e356]:
+            - listitem [ref=e357]:
+              - link "创建视频生成任务 API" [ref=e358] [cursor=pointer]:
+                - /url: /docs/82379/1520757
+            - listitem [ref=e359]:
+              - link "查询视频生成任务 API" [ref=e360] [cursor=pointer]:
+                - /url: /docs/82379/1521309
+            - listitem [ref=e361]:
+              - link "查询视频生成任务列表" [ref=e362] [cursor=pointer]:
+                - /url: /docs/82379/1521675
+            - listitem [ref=e363]:
+              - link "取消或删除视频生成任务" [ref=e364] [cursor=pointer]:
+                - /url: /docs/82379/1521720

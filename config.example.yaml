@@ -1,0 +1,50 @@
+# new-api-proxy 配置示例
+# 复制为 config.yaml 后按需修改；同名环境变量优先级更高（大写+下划线，如 ARK_API_KEY）。
+
+server:
+  port: 8080
+  read_timeout: 60s        # 读取请求超时
+  write_timeout: 300s      # 写出超时（视频/ASR 轮询需较长）
+  log_level: info          # debug | info | warn | error
+
+proxy:
+  # 本代理入口鉴权 Key；留空则不校验（适合内网，置于 new-api 之后）。
+  # new-api 渠道「密钥」填此值即可。
+  auth_key: ""
+
+ark:
+  # 火山方舟 API Key（必填，方舟控制台获取）
+  api_key: "${ARK_API_KEY}"
+  base_url: "https://ark.cn-beijing.volces.com/api/v3"
+  region: "cn-beijing"
+  timeout: 120s
+
+speech:
+  # 火山「语音技术」产品线（TTS/ASR），需独立开通，鉴权与方舟不同。
+  app_id: "${SPEECH_APP_ID}"
+  access_token: "${SPEECH_ACCESS_TOKEN}"
+  tts_url: "https://openspeech.bytedance.com/api/v1/tts"
+  asr_submit_url: "https://openspeech.bytedance.com/api/v1/auc/submit"
+  asr_query_url: "https://openspeech.bytedance.com/api/v1/auc/query"
+  timeout: 60s
+
+# OpenAI 模型名 -> 火山方舟 Model ID 映射
+model_map:
+  "gpt-4o": "doubao-seed-1-6-250615"
+  "gpt-4o-mini": "doubao-1-5-lite-32k-250115"
+  "gpt-3.5-turbo": "doubao-1-5-lite-32k-250115"
+  "text-embedding-3-small": "doubao-embedding-text-240715"
+  "text-embedding-3-large": "doubao-embedding-large-text-240915"
+  "dall-e-3": "doubao-seedream-3-0-t2i-250415"
+  "dall-e-2": "doubao-seedream-3-0-t2i-250415"
+  "gpt-image-1": "doubao-seedream-3-0-t2i-250415"
+  "sora": "doubao-seedance-1-0-pro-250528"
+  "sora-2": "doubao-seedance-1-0-pro-250528"
+  "sora-1": "doubao-seedance-1-0-pro-250528"
+
+# OpenAI voice 名 -> 火山 voice_type 映射（TTS）
+voice_map:
+  "alloy": "zh_female_cancan_mars_bigtts"
+  "nova": "zh_male_M392_conversation_wvae"
+  "shimmer": "zh_female_wanxiang_moon_bigtts"
+  "echo": "zh_male_M392_conversation_wvae"
